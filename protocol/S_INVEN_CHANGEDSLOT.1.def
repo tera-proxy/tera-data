@@ -1,0 +1,4 @@
+# majorPatchVersion >= 85
+
+int32 pocket
+array<int32> slots

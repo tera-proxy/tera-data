@@ -1,0 +1,10 @@
+# majorPatchVersion >= 74
+
+skillid                  skill
+vec3                     loc
+angle                    w
+vec3                     dest
+
+array   targets
+- uint64                 gameId
+- uint32                 hitCylinderId

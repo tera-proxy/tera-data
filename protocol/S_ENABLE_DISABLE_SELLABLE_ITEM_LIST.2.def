@@ -1,0 +1,6 @@
+bool enabled1
+bool enabled2
+bool enabled3
+array<uint32> items1
+array<uint32> items2
+array<uint32> items3

@@ -1,0 +1,4 @@
+uint64 target
+uint32 id
+uint16 reason # 0: none specified, 1: cannot apply stronger effect, 2: resisted, 3: immunity
+bool   buff

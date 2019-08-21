@@ -1,0 +1,6 @@
+# majorPatchVersion >= 85
+
+int32 pocketFrom
+int32 slotFrom
+int32 pocketTo
+int32 slotTo

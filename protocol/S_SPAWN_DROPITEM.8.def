@@ -1,0 +1,15 @@
+# majorPatchVersion >= 80
+
+uint64 gameId
+vec3   loc
+int32  item
+int32  amount
+int32  expiry
+bool   explode # true = just dropped, false = existing loot
+bool   masterwork
+int32  enchant
+uint64 source
+bool   debug
+
+array<uint32> owners # playerIds
+string ownerName

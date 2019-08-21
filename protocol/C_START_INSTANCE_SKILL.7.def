@@ -1,0 +1,13 @@
+# majorPatchVersion >= 74
+
+skillid                  skill
+vec3                     loc
+angle                    w
+bool                     continue
+
+array[interleaved]       targets
+- uint32                 arrowId
+- uint64                 gameId
+- uint32                 hitCylinderId
+
+array<vec3>[interleaved] endpoints

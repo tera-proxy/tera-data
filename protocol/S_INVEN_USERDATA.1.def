@@ -1,0 +1,9 @@
+# majorPatchVersion >= 85
+
+uint64 gameId
+int32  itemLevelInventory
+int32  itemLevel
+int64  tcat
+int32  brokerUseTcat # unsure
+int64  vipToken # unsure
+int32  boughtInventoryExpansions # bought with money, not items

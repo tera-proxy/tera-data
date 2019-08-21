@@ -1,0 +1,24 @@
+array quests
+- int32 id
+- int32 dbid
+- int32 step
+- int32 unk2  # 1?
+- int32 unk3  # 0?
+- bool  unk4  # 1?
+- bool  unk5  # 0?
+- bool  unk6  # 0?
+- bool  showTracker
+- bool  unk7  # false?
+- bool  unk8
+- bool  eligible
+- int32 unk9  # 0?
+- int32 unk10 # 0?
+- int32 unk11 # 0?
+
+- array dialogs
+- - vec3  loc
+- - int32 huntingZoneId
+- - int32 templateId
+- - int32 zone
+
+- array<int32> tasks

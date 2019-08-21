@@ -1,0 +1,3 @@
+uint64 gameId
+uint32 skill
+array<uint64> items

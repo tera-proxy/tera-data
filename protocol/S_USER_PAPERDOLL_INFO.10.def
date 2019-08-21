@@ -1,0 +1,136 @@
+# majorPatchVersion >= 85
+
+uint32 templateId
+uint64 gameId
+uint32 serverId
+uint32 playerId
+uint32 walkMoveSpeed
+uint16 level
+uint32 gatherMineral
+uint32 gatherBug
+uint32 gatherHerb
+uint32 gatherEnergy
+uint16 homunculusSkillLevel
+int64  totalXp
+int64  levelXp
+int64  nextLevelXp
+uint32 talentLevel
+uint64 talentXp
+uint32 talentDailyXp
+uint32 weapon
+uint32 body
+uint32 hand
+uint32 feet
+uint32 underwear
+uint32 head
+uint32 face
+int32  power
+int32  endurance
+int32  impactFactor
+int32  balanceFactor
+int16  moveSpeed
+int16  attackSpeed
+float  critRate
+float  critResist
+float  critPower
+int32  attack
+int32  attack2
+int32  defense
+int32  impact
+int32  balance
+float  resistWeakening
+float  resistPeriodic
+float  resistStun
+int32  powerBonus
+int32  enduranceBonus
+int32  impactFactorBonus
+int32  balanceFactorBonus
+int16  moveSpeedBonus
+int16  attackSpeedBonus
+float  critRateBonus
+float  critResistBonus
+float  critPowerBonus
+int32  attackBonus
+int32  attack2Bonus
+int32  defenseBonus
+int32  impactBonus
+int32  balanceBonus
+float  resistWeakeningBonus
+float  resistPeriodicBonus
+float  resistStunBonus
+int16  vitality
+int32  condition
+int32  conditionMax
+int32  itemLevelInventory
+int32  itemLevel
+uint32 infamy
+uint32 styleHead
+uint32 styleFace
+uint32 styleBack
+uint32 styleWeapon
+uint32 styleBody
+uint32 styleFootprint
+uint32 flightDataId
+float  flightSpeedMultiplier
+
+array items # see S_ITEMLIST
+- int32  id
+- uint64 dbid
+- uint64 ownerId
+- int32 container
+- int32 pocket
+- uint32 slot
+- int32  amount
+- int32  enchant
+- int32  durability
+- bool   soulbound
+- int32  crystal1
+- int32  crystal2
+- int32  crystal3
+- int32  crystal4
+- int32  crystal5
+- int32  passivitySet
+- int32  extraPassivitySets
+- int32  remodel
+- uint32 dye
+- int32  dyeSecRemaining
+- int64  dyeDate
+- int64  dyeExpiryDate
+- bool   masterwork
+- int32  enigma
+- int32  timesBrokered
+- int32  enchantAdvantage
+- int32  enchantBonus
+- int32  enchantBonusMaxPlus
+- uint64 boundToPlayer
+- bool   awakened
+- int32  liberationStatus
+- int32  feedstock
+- int32  boundToItem
+- bool   hasEtching
+- bool   pcbang
+- int64  xp
+- array  passivitySets
+- - uint32 index
+- - int32  masterworkBonus
+- - int32  itemLevel
+- - int32  minItemLevel
+- - int32  maxItemLevel
+- - array<int32> passivities
+- array<int32> mergedPassivities
+
+array dungeons # see S_DUNGEON_COOL_TIME_LIST
+- uint32 id
+- uint32 type
+- uint32 cooldown
+- int16 entriesDay
+- int16 entriesWeek
+
+array equipmentOverrides
+- uint32 slot
+- int32 id
+
+string name
+string status
+string guild
+string guildRank

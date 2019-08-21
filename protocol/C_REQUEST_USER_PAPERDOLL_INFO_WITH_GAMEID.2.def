@@ -1,0 +1,4 @@
+# majorPatchVersion >= 85
+
+uint64 gameId
+bool unk

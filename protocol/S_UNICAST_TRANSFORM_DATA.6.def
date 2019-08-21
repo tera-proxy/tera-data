@@ -1,0 +1,66 @@
+uint32    serverId
+uint32    playerId
+uint64    gameId # Player being transformed into, or the user if none
+uint32    type # 0 = Un-transform, 1 = Transform, 2 = NPC transform, 3 = Same as 0?- no, Default = 1
+bool      isExpandTransform
+bool      isAppear
+int32     templateId
+int32     huntingZoneId
+int32     weaponEnchant
+customize appearance
+uint32    appearance2
+uint32    weapon
+uint32    body
+uint32    hand
+uint32    feet
+uint32    underwear
+uint32    head
+uint32    face
+uint32    styleHead
+uint32    styleFace
+uint32    styleBack
+uint32    styleWeapon
+uint32    styleBody
+uint32    styleFootprint
+uint32    weaponModel
+uint32    bodyModel
+uint32    handModel
+uint32    feetModel
+uint32    weaponDye
+uint32    bodyDye
+uint32    handDye
+uint32    feetDye
+uint32    underwearDye
+uint32    styleBackDye
+uint32    styleHeadDye
+uint32    styleFaceDye
+uint32    styleBodyDye
+bool      pcbang
+int64     title
+bool      bgCommander
+float     styleHeadScale
+vec3fa    styleHeadRotation
+vec3      styleHeadTranslation
+vec3      styleHeadTranslationDebug
+float     styleFaceScale
+vec3fa    styleFaceRotation
+vec3      styleFaceTranslation
+vec3      styleFaceTranslationDebug
+float     styleBackScale
+vec3fa    styleBackRotation
+vec3      styleBackTranslation
+vec3      styleBackTranslationDebug
+bool      usedStyleHeadTransform
+
+array<int32> icons
+
+array     abnormals
+- int32 id
+- int32 stacks
+
+bytes     details
+bytes     shape
+string    guildName
+string    guildLogo
+string    guildRank
+string    name
