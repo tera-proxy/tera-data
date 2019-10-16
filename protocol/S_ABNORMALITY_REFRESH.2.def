@@ -1,0 +1,4 @@
+uint64 target
+uint32 id
+int64  duration # 0x7FFFFFFF = infinite
+int32  stacks

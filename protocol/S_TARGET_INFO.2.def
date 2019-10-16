@@ -1,0 +1,22 @@
+# majorPatchVersion >= 86
+
+uint64   target
+float    hpPercentage
+float    mpPercentage
+int32    level
+float    itemLevel
+float    stPercentage
+int32    edge
+float    edgePercentage
+int32    edgeTimeRemaining # milliseconds
+int32    edgeMin
+
+array    abnormals
+- uint32 id
+- int64  duration # 0x7FFFFFFF = infinite
+- int32  stacks
+
+array    conditions
+- uint32 id
+- int32  duration
+- bool   active

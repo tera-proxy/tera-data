@@ -1,0 +1,39 @@
+# majorPatchVersion >= 86
+
+uint64  source
+uint64  owner      # If non-zero, then source is a projectile and this is its owner
+uint64  target
+int32   templateId
+skillid skill
+int32   targeting  # index in TargetingList (NOT id) - See DataCenter.SkillData
+int32   area       # index in AreaList
+uint32  id
+int32   time       # time in Targeting
+int64   value
+int16   type       # 0 = Hidden, 1 = Damage, 2 = Heal, 3 = MP
+int16   noctEffect # See DataCenter.NocTanEffectData
+bool    crit
+bool    stackExplode
+bool    superArmor
+int32   superArmorId
+int32   hitCylinderId
+
+object  reaction   # Used for knockdown, stagger etc.
+- bool    enable
+- bool    push
+- bool    air
+- bool    airChain
+
+int16   damageType # 0 = default, 1 = physical, 2 = magical
+
+object  reaction   # cont.
+- vec3    loc
+- angle   w
+- skillid skill
+- int32   stage
+- uint32  id
+- array   animSeq
+- - int32 duration
+- - float xyRate
+- - float zRate
+- - float distance

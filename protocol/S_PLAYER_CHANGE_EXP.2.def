@@ -1,0 +1,14 @@
+# majorPatchVersion >= 86
+
+uint64 gainedXp
+uint64 totalXp
+uint64 levelXp
+uint64 totalLevelXp
+uint64 monsterGameId
+uint64 partyBonusXp
+uint64 usedRestBonusXp
+uint64 restBonusXp
+uint64 maxRestBonusXp
+float xpBonusPercent
+float dropBonusPercent
+uint64 vipBonusXp

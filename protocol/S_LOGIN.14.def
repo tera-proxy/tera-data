@@ -1,0 +1,83 @@
+# majorPatchVersion >= 85
+
+int32     templateId  # For players the convention is 1XXYY (X = 1 + race*2 + gender, Y = 1 + class). See C_CREATE_USER
+uint64    gameId      # globally-unique identifier for this session
+uint32    serverId
+uint32    playerId
+int32     actionMode  # ?
+bool      alive
+int32     status
+int32     walkSpeed
+int32     runSpeed
+customize appearance
+bool      visible
+bool      isSecondCharacter
+uint16    level
+uint32    awakeningLevel
+uint32    profMineral
+uint32    profBug
+uint32    profHerb
+uint32    profEnergy
+uint16    profPet
+int32     pkDeclareCount
+int32     pkKillCount
+int64     totalXp
+int64     levelXp
+int64     totalLevelXp
+int32     epLevel
+int64     epXp
+int32     epDailyXp
+int64     restBonusXp
+int64     maxRestBonusXp
+float     xpBonusPercent
+float     dropBonusPercent
+int32     weapon
+int32     body
+int32     hand
+int32     feet
+int32     underwear
+int32     head
+int32     face
+int64     serverTime
+bool      isPkServer
+int64     chatBanEndTime
+uint32    title       # achievement id
+int32     weaponModel
+int32     bodyModel
+int32     handModel
+int32     feetModel
+uint32    weaponDye   # ignored
+uint32    bodyDye
+uint32    handDye
+uint32    feetDye
+uint32    underwearDye
+uint32    styleBackDye
+uint32    styleHeadDye
+uint32    styleFaceDye
+uint32    weaponEnchant
+bool      isWorldEventTarget
+int32     infamy
+bool      showFace
+uint32    styleHead
+uint32    styleFace
+uint32    styleBack
+uint32    styleWeapon
+uint32    styleBody
+uint32    styleFootprint
+uint32    styleBodyDye
+bool      showStyle
+int64     titleCount
+int32     appearance2 # unknown, but client ignores shape if this is invalid
+float     scale
+int32     guildLogoId
+
+array     servants # see S_REQUEST_SERVANT_INFO_LIST
+- uint64  dbid
+- uint32  id
+- uint32  type
+- uint32  energy
+- int32   slot
+
+string    name
+bytes     details
+bytes     shape

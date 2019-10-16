@@ -1,0 +1,86 @@
+# majorPatchVersion >= 86
+
+int64  hp
+int32  mp
+int64  drain
+int64  maxHp
+int32  maxMp
+int32  power
+int32  endurance
+float  critRate
+float  critResist
+float  critPower
+float  critPowerPhysical
+float  critPowerMagical
+int16  attackSpeed
+int16  runSpeed
+int16  walkSpeed
+int32  impactFactor
+int32  balanceFactor
+int32  attackMin
+int32  attackMax
+int32  attackPhysicalMin
+int32  attackPhysicalMax
+int32  attackMagicalMin
+int32  attackMagicalMax
+int32  defense
+int32  defensePhysical
+int32  defenseMagical
+int32  impact
+int32  balance
+float  resistWeakening
+float  resistPeriodic
+float  resistStun
+int32  powerBonus
+int32  enduranceBonus
+int32  impactFactorBonus
+int32  balanceFactorBonus
+int16  runSpeedBonus
+int16  walkSpeedBonus
+int16  attackSpeedBonus
+float  critRateBonus
+float  critResistBonus
+float  critPowerBonus
+float  critPowerPhysicalBonus
+float  critPowerMagicalBonus
+int32  attackMinBonus
+int32  attackMaxBonus
+int32  defenseBonus
+int32  attackPhysicalMinBonus
+int32  attackPhysicalMaxBonus
+int32  defensePhysicalBonus
+int32  attackMagicalMinBonus
+int32  attackMagicalMaxBonus
+int32  defenseMagicalBonus
+int32  impactBonus
+int32  balanceBonus
+float  resistWeakeningBonus
+float  resistPeriodicBonus
+float  resistStunBonus
+uint16 level # level shown and used for e.g. damage calculations (was used for Blast from the Past)
+uint16 status # see S_USER_STATUS
+uint16 conditionLevel
+bool   alive
+int32  hpBonus
+int32  mpBonus
+int32  condition # Stamina in English version
+int32  contitionMax
+int32  stamina # Resolve, Chi, Willpower, etc.
+int32  staminaMax
+int32  staminaBonus
+int32  infamy
+float  itemLevelInventory
+float  itemLevel
+int32  edge
+float  edgePercentage
+int32  edgeTimeRemaining # milliseconds
+int32  edgeMin
+int32  trueLevel # actual character level used for e.g. learning skills (was used for Blast from the Past)
+float  flightEnergy
+uint32 flightId
+float  flightSpeedMul
+uint32 fireEdge # sorc fire "edge" (becomes 4 for some reason)
+uint32 iceEdge # sorc ice "edge" (becomes 4 for some reason)
+uint32 lightningEdge # sorc lightning "edge" (becomes 4 for some reason)
+uint32 adventureCoins
+uint32 adventureCoinsMax

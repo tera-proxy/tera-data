@@ -1,0 +1,9 @@
+# majorPatchVersion >= 75
+
+uint64 target
+uint64 source
+uint32 id
+int64  duration # 0x7FFFFFFF = infinite
+int32  stacks
+uint32 hitCylinderId
+int32  unk3 # 0?
