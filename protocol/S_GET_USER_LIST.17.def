@@ -1,5 +1,4 @@
-# majorPatchVersion >= 85
-# Toolbox compatibility only - Proxy mods can and should continue using v16 as there are no actual changes
+# majorPatchVersion >= 86
 
 bool   veteran
 int32  bonusBufSec
@@ -76,8 +75,8 @@ array  characters
 - int32     styleFootprint
 - uint32    styleBodyDye
 - uint32    weaponEnchant
-- int32     restBonusXp
-- int32     maxRestBonusXp
+- int64     restBonusXp
+- int64     maxRestBonusXp
 - bool      showFace
 - float     styleHeadScale
 - vec3fa    styleHeadRotation
