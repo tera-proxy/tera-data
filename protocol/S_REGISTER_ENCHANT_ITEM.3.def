@@ -1,0 +1,27 @@
+# majorPatchVersion >= 86
+
+uint32 contractId
+uint64 uniqueId
+uint32 itemId
+bool enableUpgrade
+bool damaged
+bool masterwork
+int32 masterworkBonus
+uint32 enchantLevel
+uint64 itemEXP
+uint64 itemEXPMax
+uint32 enchantLevelMax
+float itemLevel
+float itemLevelMax
+uint64 price
+bool hideSuccessChance
+float downgradeOnFailureChance
+float damageOnFailureChance
+
+array materials
+- uint32 id
+- uint32 amount
+
+array successChances
+- uint32 type
+- float chance

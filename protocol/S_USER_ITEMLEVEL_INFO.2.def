@@ -1,0 +1,4 @@
+# majorPatchVersion >= 86
+
+float itemLevelInventory
+float itemLevel

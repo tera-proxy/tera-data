@@ -1,4 +1,4 @@
-# majorPatchVersion >= 85
+# majorPatchVersion >= 86
 
 uint64			gameId
 int32			container # 0: inventory, 14: equipment - see S_SHOW_ITEM_TOOLTIP
@@ -54,9 +54,9 @@ array			items
 - array			passivitySets
 - - uint32			index
 - - int32			masterworkBonus
-- - int32			itemLevel
-- - int32			minItemLevel
-- - int32			maxItemLevel
+- - float			itemLevel
+- - float			minItemLevel
+- - float			maxItemLevel
 - - array<int32>	passivities
 
 - array<int32>	mergedPassivities
