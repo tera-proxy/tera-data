@@ -1,13 +1,13 @@
+array tabs
+- array items
+- - uint32 item
+- - uint32 netPrice
+- - uint32 reqRank
+- uint32 caption
+
 uint64 gameId
 uint32 contract
 uint32 button
 uint32 credits
 uint32 rank
-uint32 store #same as button?
-
-array tabs
--uint32 caption
--array items
---uint32 item
---uint32 netPrice
---uint32 reqRank
+uint32 store # same as button?

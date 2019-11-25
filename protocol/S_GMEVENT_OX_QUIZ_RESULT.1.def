@@ -1,4 +1,4 @@
+string answerText
 int32 index
 int32 count
 int32 answer
-string answerText

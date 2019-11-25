@@ -1,5 +1,23 @@
-count  events
-offset events
+array  events
+- array  arr2
+- - int32 unk
+
+- array  rewards
+- - int32 item
+- - int32 amount
+
+- array  arr1
+- - int32 unk1
+- - int32 unk2
+- - int32 unk3
+
+- int32  id
+- int32  unk1
+- int32  unk2
+- byte   unk3
+- byte   unk4
+- byte   unk5
+- int32  unk6
 
 int32  unk1
 int32  unk2
@@ -15,31 +33,3 @@ int32  limitPvp
 int32  limitParty
 int32  limitGeneral # ?
 int32  level # ?
-
-array  events
-- count  arr2
-- offset arr2
-- count  rewards
-- offset rewards
-- count  arr1
-- offset arr1
-
-- int32  id
-- int32  unk1
-- int32  unk2
-- byte   unk3
-- byte   unk4
-- byte   unk5
-- int32  unk6
-
-- array  rewards
-- - int32 item
-- - int32 amount
-
-- array  arr1
-- - int32 unk1
-- - int32 unk2
-- - int32 unk3
-
-- array  arr2
-- - int32 unk

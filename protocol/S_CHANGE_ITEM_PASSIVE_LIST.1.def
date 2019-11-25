@@ -1,5 +1,5 @@
-bool success
-
 array stats
--int32 index
--uint32 id
+- int32 index
+- uint32 id
+
+bool success

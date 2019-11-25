@@ -1,16 +1,16 @@
+array guilds
+- string name
+- string gm
+- string emblem
+- uint32 id
+- int32 rank
+- int32 level
+- int32 size
+- int32 kills
+- int32 deaths
+- int32 towersDestroyed
+- float towerHpPercent
+- float towerTimeKilled
+
 uint32 winnerId
 int32 maxPages
-
-array guilds
--uint32 id
--int32 rank
--int32 level
--int32 size
--int32 kills
--int32 deaths
--int32 towersDestroyed
--float towerHpPercent
--float towerTimeKilled
--string name
--string gm
--string emblem

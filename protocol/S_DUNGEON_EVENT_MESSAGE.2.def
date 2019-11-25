@@ -1,4 +1,4 @@
+string message
 uint32 type # 2,19-23,38-39,41-74,80-81
 bool chat # show in chat
 uint32 channel # see C_CHAT.1.def
-string message

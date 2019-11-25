@@ -1,5 +1,4 @@
-offset name
-
+string name
 int32  unk1
 int64  uid
 int32  unk2
@@ -7,4 +6,3 @@ int32  unk3
 int32  unk4
 int32  unk5
 int32  unk6
-string name

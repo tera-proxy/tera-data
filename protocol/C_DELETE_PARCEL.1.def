@@ -1,6 +1,4 @@
-count messages
-offset messages
+array messages
+- uint32 id
 
 uint32 unk1
-array messages
- - uint32 id

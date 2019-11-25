@@ -1,6 +1,6 @@
-int32 id # See S_OPEN_BOARD
-
 array messages
--int64 time # unix
--string author
--string message
+- string author
+- string message
+- int64 time # unix
+
+int32 id # See S_OPEN_BOARD

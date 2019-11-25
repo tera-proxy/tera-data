@@ -1,5 +1,11 @@
 ﻿# majorPatchVersion >= 75
 
+array   animSeq
+- int32 duration
+- float xyRate
+- float zRate
+- float distance
+
 uint64  gameId
 vec3    loc
 angle   w
@@ -13,9 +19,3 @@ float   effectScale # Only applied if corresponding bChangeAbleScaleByRange == t
 bool    moving # Only applied if OverrideMovingAnimId > 0 in SkillData
 vec3    dest # Used for Brawler: Divine Wrath
 uint64  target
-
-array   animSeq
-- int32 duration
-- float xyRate
-- float zRate
-- float distance

@@ -1,8 +1,7 @@
-offset query
-offset categories
-offset items
-offset query2
-
+string query
+string categories
+string items
+string query2
 uint32 lvlMin
 uint32 lvlMax
 uint32 rarity #0 = all, 1 = uncommon, 2 = rare, 3 = superior
@@ -25,8 +24,3 @@ int16 unk3
 int32 unk4
 int32 unk5
 int32 unk6
-
-string query
-string categories
-string items
-string query2

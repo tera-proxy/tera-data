@@ -1,5 +1,5 @@
+string message
 int32 minLevel
 int32 maxLevel
 int32 join # join method
 int32 style
-string message

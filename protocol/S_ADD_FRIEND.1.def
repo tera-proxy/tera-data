@@ -1,4 +1,4 @@
-offset name
+string name
 uint32 id
 int32  level
 int32  race
@@ -8,4 +8,3 @@ uint32 location1
 uint32 location2
 uint32 location3
 int16  unk # maybe status and..?
-string name

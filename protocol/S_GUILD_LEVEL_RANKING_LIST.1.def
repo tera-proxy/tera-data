@@ -1,19 +1,13 @@
-count guilds
-offset guilds
+array guilds
+- string emblem
+- string name
+- string gm
+- int32 rank
+- int32 previousRank # shows up or down arrow, otherwise 0
+- int32 playStyle
+- int64 dateCreation # unix
+- int32 size
+- int32 level
 
 int32 page
 int32 maxPage
-
-array guilds
--offset emblem
--offset name
--offset gm
--int32 rank
--int32 previousRank # shows up or down arrow, otherwise 0
--int32 playStyle
--int64 dateCreation # unix
--int32 size
--int32 level
--string emblem
--string name
--string gm

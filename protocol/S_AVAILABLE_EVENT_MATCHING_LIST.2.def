@@ -1,3 +1,29 @@
+array  quests
+- array unkArray1
+- - uint32 unk1
+- - uint32 unk2
+
+- array rewards
+- - int32 dbid
+- - int32 amount
+
+- array unkArray2
+
+- array unkArray3
+
+- array unkArray4
+- - uint32 unk1 # 0
+- - uint32 unk2 # 2400
+- - uint32 unk3 # 0
+
+- int32  id
+- uint32 unk1   # 0
+- byte   unk_b1 # 0
+- uint32 unk2   # 1
+- byte   unk_b2 # 1
+- byte   unk_b3 # 1
+- uint32 unk3   # 0
+
 uint32 unk1   # 0
 uint32 unk2   # 0
 uint32 unk3   # 0x4ffffff7
@@ -24,29 +50,3 @@ int32  limitPvp
 int32  limitDungeon
 int32  limitSolo
 int32  level
-
-array   quests
-- int32  id
-- uint32 unk1   # 0
-- byte   unk_b1 # 0
-- uint32 unk2   # 1
-- byte   unk_b2 # 1
-- byte   unk_b3 # 1
-- uint32 unk3   # 0
-
-- array unkArray1
-- - uint32 unk1
-- - uint32 unk2
-
-- array rewards
-- - int32 dbid
-- - int32 amount
-
-- array unkArray2
-
-- array unkArray3
-
-- array unkArray4
-- - uint32 unk1 # 0
-- - uint32 unk2 # 2400
-- - uint32 unk3 # 0

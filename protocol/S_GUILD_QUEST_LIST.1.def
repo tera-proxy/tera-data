@@ -1,48 +1,4 @@
-count  quests
-offset quests
-offset guildName
-offset guildMaster
-
-int32  guildId
-int32  guildMasterId
-int32  guildLevel
-int64  guildXp
-int64  guildXpForLevel
-int64  guildFunds
-int32  characters
-int32  accounts
-int32  size
-int64  creationDate
-int32  completedQuests
-int32  maxQuests
-string guildName
-string guildMaster
-
 array  quests
-- count  targets
-- offset targets
-- count  unk2
-- offset unk2
-- count  rewards
-- offset rewards
-- offset name
-- offset description
-- offset guildName
-
-- int32  id
-- int32  unk1 # determines how to display name and description strings
-- int32  size
-- int32  isRally       # 2 if rally
-- int32  totalTime     # in minutes
-- int32  status        # 0 = not taken, 1 = in progress, 2 = completed
-- int32  timeRemaining # in seconds
-- int32  type          # 0 = other, 1 = boss, 2 = bg, 3 = gather, 4 = rally
-- int32  unk7
-- byte   unk8
-- string name
-- string description
-- string guildName
-
 - array  targets
 - - int32 info1
 - - int32 info2
@@ -55,3 +11,32 @@ array  quests
 - array  rewards
 - - int32 item
 - - int64 amount
+
+- string name
+- string description
+- string guildName
+- int32  id
+- int32  unk1 # determines how to display name and description strings
+- int32  size
+- int32  isRally       # 2 if rally
+- int32  totalTime     # in minutes
+- int32  status        # 0 = not taken, 1 = in progress, 2 = completed
+- int32  timeRemaining # in seconds
+- int32  type          # 0 = other, 1 = boss, 2 = bg, 3 = gather, 4 = rally
+- int32  unk7
+- byte   unk8
+
+string guildName
+string guildMaster
+int32  guildId
+int32  guildMasterId
+int32  guildLevel
+int64  guildXp
+int64  guildXpForLevel
+int64  guildFunds
+int32  characters
+int32  accounts
+int32  size
+int64  creationDate
+int32  completedQuests
+int32  maxQuests

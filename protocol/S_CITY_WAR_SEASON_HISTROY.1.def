@@ -1,5 +1,5 @@
 array seasons
--int32 unk #always 1?
--int32 season
--int64 previousDate # unix time
--int64 currentDate # unix time
+- int32 unk # always 1?
+- int32 season
+- int64 previousDate # unix time
+- int64 currentDate # unix time

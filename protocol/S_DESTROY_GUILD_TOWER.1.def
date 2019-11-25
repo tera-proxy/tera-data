@@ -1,6 +1,6 @@
-vec3 loc
-uint32 sourceGuildId # The guild ID of the player who destroyed the tower
-uint32 targetGuildId # The guild ID of the tower that got destroyed
 string sourceGuildName # The guild name of the player who destroyed the tower
 string name # The name of the player who destroyed the tower
 string targetGuildName # The guild name of the tower that got destroyed 
+vec3 loc
+uint32 sourceGuildId # The guild ID of the player who destroyed the tower
+uint32 targetGuildId # The guild ID of the tower that got destroyed

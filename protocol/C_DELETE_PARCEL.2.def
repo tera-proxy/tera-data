@@ -1,5 +1,5 @@
+array messages
+- uint32 id
+
 uint32 id # contract id
 byte unk1
-array messages
- - uint32 id
- 

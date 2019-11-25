@@ -1,5 +1,5 @@
-count  unk8
-offset unk8
+array  unk8
+- uint32 unk
 
 int32  index
 int32  unk2 # amount?
@@ -10,5 +10,3 @@ byte   unk5 # always 0?
 int32  duration
 byte   unk6 # rollable?
 int32  remaining
-array  unk8
-- uint32 unk

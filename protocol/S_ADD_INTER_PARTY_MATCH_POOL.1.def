@@ -1,16 +1,10 @@
-count instances
-offset instances
-count players
-offset players
-
-int32 avgWaitSec
-int32 type # 0 = Dungeon, 1 = Battleground
-
 array instances
 - int32 id
 
 array players
-- offset name
+- string name
 - byte preferredLeader
 - int32 role # 0 = Tank, 1 = DPS, 2 = Healer
-- string name
+
+int32 avgWaitSec
+int32 type # 0 = Dungeon, 1 = Battleground

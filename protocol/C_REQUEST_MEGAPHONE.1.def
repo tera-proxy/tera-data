@@ -1,4 +1,3 @@
-offset message
+string message
 uint32 unk1 # item id?
 uint32 unk2 # 0?
-string message

@@ -1,7 +1,7 @@
-uint64 id
-
 array  items
 - int32 id
 - int32 amount
 
 string message
+
+uint64 id

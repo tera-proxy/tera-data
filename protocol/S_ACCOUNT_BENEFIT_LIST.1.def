@@ -1,5 +1,3 @@
-byte unk # 0?
-
 array accountBenefits
 - uint32 packageId
 - uint32 unk1 # 8C 88 0C 27 ?
@@ -8,3 +6,5 @@ array accountBenefits
 - uint32 unk3 # 0?
 - uint32 unk4 # 0?
 - byte unk5 # 0?
+
+byte unk # 0?

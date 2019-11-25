@@ -1,4 +1,2 @@
-count  items
-offset items
-array  items
+array items
 - uint64 uid

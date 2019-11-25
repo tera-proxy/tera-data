@@ -1,9 +1,5 @@
 # MajorPatchVersion >= 74
 
-skillid skill
-vec3    loc
-angle   w
-
 array   targets
 - uint32 unk1
 - uint64 target
@@ -11,3 +7,7 @@ array   targets
 
 array   endpoints
 - vec3 loc
+
+skillid skill
+vec3    loc
+angle   w

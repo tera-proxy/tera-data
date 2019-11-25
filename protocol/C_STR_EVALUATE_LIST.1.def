@@ -1,5 +1,5 @@
-int32 unk #always 10?
-
 array messages
--int32 unk
--string message
+- string message
+- int32 unk
+
+int32 unk # always 10?

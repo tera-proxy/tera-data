@@ -1,9 +1,7 @@
-count  dungeons
-offset dungeons
-
-int32 unk # array count+offset?
 array dungeons
 - int32 id
 - int32 unknown
 - int32 cooldown
 - int16 entries
+
+int32 unk # array count+offset?

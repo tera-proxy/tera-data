@@ -1,3 +1,6 @@
+string name
+bytes  details
+bytes  shape
 int32  gender # 0 = Male, 1 = Female
 int32  race   # 0 = Human, 1 = High Elf, 2 = Aman, 3 = Castanic, 4 = Popori/Elin, 5 = Baraka
 int32  class  # 0 = Warrior, 1 = Lancer, 2 = Slayer, 3 = Berserker, 4 = Sorcerer, 5 = Archer,
@@ -7,6 +10,3 @@ uint64 appearance
 bool   unused1
 uint32 appearance2
 bool   unused2
-string name
-bytes  details
-bytes  shape

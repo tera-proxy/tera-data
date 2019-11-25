@@ -1,4 +1,4 @@
-int16 count       #number or challenges selected
+int16 count       # number or challenges selected
 int16 unk1        # 0 - if random, 13 if any challenge selected
 int32 zone
 byte random

@@ -1,10 +1,7 @@
-offset authorName
-offset message
-
+string authorName
+string message
 uint32 channel # see cChat.def
 uint64 authorID
 byte   unk1
 byte   gm
 byte   founder # CBT User. Early access set.
-string authorName
-string message

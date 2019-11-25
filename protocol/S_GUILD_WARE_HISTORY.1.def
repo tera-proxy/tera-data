@@ -1,10 +1,5 @@
-count  events
-offset events
-
-int32 page
-int32 pages
 array events
-- offset name
+- string name
 - int64  unk1
 - int64  date
 - int32  event
@@ -13,4 +8,6 @@ array events
 - int32  amount
 - int32  unk3
 - int32  unk4
-- string name
+
+int32 page
+int32 pages

@@ -1,12 +1,7 @@
-count  friends
-offset friends
-offset personalNote
-
-string personalNote
 array  friends
-- offset name
-- offset myNote
-- offset theirNote
+- string name
+- string myNote
+- string theirNote
 - uint32 id
 - int32  group
 - int32  level
@@ -20,6 +15,5 @@ array  friends
 - int64  lastOnline
 - int32  unk2
 - int32  bonds
-- string name
-- string myNote
-- string theirNote
+
+string personalNote

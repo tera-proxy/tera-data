@@ -1,13 +1,13 @@
-int32 page
-int32 lastPage
-bool  error
-
 array coupons
+- string title
+- string image
 - uint64 id
 - int64  received
 - int64  expires
 - int64  remainingSec
 - int32  status # 1 = New, 2 = Opened, 3 = Used, 5 = Expired, Default = No expiry text
 - bool   crossServer
-- string title
-- string image
+
+int32 page
+int32 lastPage
+bool  error

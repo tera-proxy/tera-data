@@ -1,3 +1,22 @@
+array options
+- string text
+- int32  type
+- int32  index
+- int32  style
+
+array unkArray
+- uint32 unk1
+- uint32 unk2
+- uint32 unk3
+- uint32 unk4
+- uint32 unk5
+- uint32 unk6
+- uint32 unk7
+- uint32 unk8
+- uint32 unk9
+- uint32 unk10
+- uint32 unk11
+
 uint64 gameId
 int32  type    # 0 = Cancel, 1 = Default, 2 = Quest, 3 = Quest
 uint32 questId # or templateId
@@ -12,22 +31,3 @@ int32  unk7
 int32  unk8
 int32  unk9
 byte   unk10
-
-array options
-- int32  type
-- int32  index
-- int32  style
-- string text
-
-array unkArray
-- uint32 unk1
-- uint32 unk2
-- uint32 unk3
-- uint32 unk4
-- uint32 unk5
-- uint32 unk6
-- uint32 unk7
-- uint32 unk8
-- uint32 unk9
-- uint32 unk10
-- uint32 unk11

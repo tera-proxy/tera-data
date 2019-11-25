@@ -1,7 +1,3 @@
-bool enabled1
-bool enabled2
-bool enabled3
-
 array items1
 - uint32 id
 
@@ -10,3 +6,7 @@ array items2
 
 array items3
 - uint32 id
+
+bool enabled1
+bool enabled2
+bool enabled3

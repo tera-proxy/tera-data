@@ -1,13 +1,13 @@
 # majorPatchVersion >= 74
 
-uint64   gameId
-int32    templateId
-skillid  skill
-uint32   actionId
-
 array    targets
 - uint32 arrowId
 - uint64 gameId
 
 array    endpoints
 - vec3   loc
+
+uint64   gameId
+int32    templateId
+skillid  skill
+uint32   actionId

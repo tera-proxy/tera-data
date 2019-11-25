@@ -1,3 +1,4 @@
+string owner
 int32  type # See S_SHOW_ITEM_TOOLTIP
 int64  id
 int32  unk1
@@ -5,4 +6,3 @@ int32  unk2
 int32  unk3
 int32  serverId # 0 on same server
 int32  playerId # -1 on self
-string owner

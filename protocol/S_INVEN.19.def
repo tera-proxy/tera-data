@@ -1,27 +1,17 @@
 # majorPatchVersion >= 80 && majorPatchVersion < 85
 
-count items
-offset items
-
-uint64 gameId
-int64  gold
-bool   open
-bool   first
-bool   more
-int32  size
-int32  itemLevelInventory
-int32  itemLevel
-int64  tcat
-int32  brokerUseTcat
-int64  vipToken
-
 array items
-- count passivitySets
-- offset passivitySets
-- count mergedPassivities
-- offset mergedPassivities
-- offset customString
-
+- array  passivitySets
+- - count  passivities
+- - offset passivities
+- - uint32 index
+- - int32  masterworkBonus
+- - int32  itemLevel
+- - int32  minItemLevel
+- - int32  maxItemLevel
+- - array<int32> passivities
+- array<int32> mergedPassivities
+- string customString
 - int32  id
 - uint64 dbid
 - uint64 ownerId # playerId
@@ -62,16 +52,14 @@ array items
 - int64  xp
 - bool   damaged # Damaged due to enchant/upgrade failure, needs to be repaired.
 
-- string customString
-
-- array  passivitySets
-- - count  passivities
-- - offset passivities
-- - uint32 index
-- - int32  masterworkBonus
-- - int32  itemLevel
-- - int32  minItemLevel
-- - int32  maxItemLevel
-- - array<int32> passivities
-
-- array<int32> mergedPassivities
+uint64 gameId
+int64  gold
+bool   open
+bool   first
+bool   more
+int32  size
+int32  itemLevelInventory
+int32  itemLevel
+int64  tcat
+int32  brokerUseTcat
+int64  vipToken

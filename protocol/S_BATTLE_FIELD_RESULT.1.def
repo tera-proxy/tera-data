@@ -1,7 +1,7 @@
+array unk
+- int32 unk1
+- int32 unk2
+- int32 unk3
+
 uint32 result # 0 = lose, 1 = win, 2 = draw(i think)
 int32 rating # positive for winning, negative(signed bit) for losing
-
-array unk
--int32 unk1
--int32 unk2
--int32 unk3

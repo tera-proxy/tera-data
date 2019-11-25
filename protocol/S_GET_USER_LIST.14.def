@@ -1,17 +1,13 @@
 # MajorPatchVersion >= 67
 
-bool   veteran
-uint32 gameTimeRemaining # old P2P content, values below 60 don't display anything
-uint32 maxCharacters
-int32  updateMode # 0 = add/update users*, 1 = replace entire list
-                  # *shows server transfer character deletion screen if the first packet sent since client startup is type 0
-bool   unk1 # if this is true, the client calls OnGame_SelectCharacter_SetAchievment(0, 0)
-bool   unk2 # show date in character deletion screen
-int32  unk3 # ^ date related
-int32  unk4 # ^
-int32  unk5 # ^
-
 array  characters
+- array  customStrings
+- - uint32 dbid
+- - string string
+- string name
+- bytes  details
+- bytes  shape
+- string guildName
 - uint32 id
 - uint32 gender # 1 = female, 2 = male
 - uint32 race # 0..5
@@ -101,10 +97,14 @@ array  characters
 - int32  position # 1..characterCount (position in character selection screen)
 - int32  guildId
 - int32  awakeningLevel
-- array  customStrings
-- - uint32 dbid
-- - string string
-- string name
-- bytes  details
-- bytes  shape
-- string guildName
+
+bool   veteran
+uint32 gameTimeRemaining # old P2P content, values below 60 don't display anything
+uint32 maxCharacters
+int32  updateMode # 0 = add/update users*, 1 = replace entire list
+                  # *shows server transfer character deletion screen if the first packet sent since client startup is type 0
+bool   unk1 # if this is true, the client calls OnGame_SelectCharacter_SetAchievment(0, 0)
+bool   unk2 # show date in character deletion screen
+int32  unk3 # ^ date related
+int32  unk4 # ^
+int32  unk5 # ^

@@ -1,4 +1,3 @@
-offset message
-uint32 itemId #sign of the day, half day etc
-uint16 unk
 string message
+uint32 itemId # sign of the day, half day etc
+uint16 unk

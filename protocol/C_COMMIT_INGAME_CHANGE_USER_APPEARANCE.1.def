@@ -1,6 +1,3 @@
-offset details
-count  details
-
-int32  field
-int32  unk
-bytes  details
+bytes details
+int32 field
+int32 unk

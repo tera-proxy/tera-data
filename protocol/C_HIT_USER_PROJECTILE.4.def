@@ -1,7 +1,7 @@
-uint64 id
-bool   end
-vec3   loc
-
 array  targets
 - uint64 gameId
 - uint32 unk
+
+uint64 id
+bool   end
+vec3   loc

@@ -1,9 +1,9 @@
+array  targets
+- uint64 gameId
+- uint32 unk
+
 uint64 id
 bool   end
 float  x
 float  y
 float  z
-
-array  targets
-- uint64 gameId
-- uint32 unk

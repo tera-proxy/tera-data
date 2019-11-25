@@ -1,3 +1,4 @@
+string name
 int32 id
 int32 type
 int64 messageTime
@@ -5,4 +6,3 @@ int64 startTime
 int32 remainingEntries
 bool hurryUp
 int32 remainingPlayers
-string name

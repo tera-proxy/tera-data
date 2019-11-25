@@ -1,6 +1,6 @@
+string   purpose
 int16    unk1 # 0
 int16    minlvl
 int16    maxlvl
 int32    unk2 # 3
 int32    unk3 # 0
-string   purpose

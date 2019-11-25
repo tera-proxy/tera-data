@@ -1,4 +1,4 @@
 # majorPatchVersion >= 85
 
-bool zoom
 string name
+bool zoom

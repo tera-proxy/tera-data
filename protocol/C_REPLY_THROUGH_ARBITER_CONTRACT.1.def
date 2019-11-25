@@ -1,4 +1,4 @@
+string recipient
 int32  type # see S_REQUEST_CONTRACT.1
 uint64 id
 uint32 response
-string recipient

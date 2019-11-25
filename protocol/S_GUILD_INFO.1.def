@@ -1,12 +1,14 @@
-count  ranks
-offset ranks
-offset name
-offset master
-offset motd
-offset myRank
-offset ad
-offset emblem
+array ranks
+- string name
+- int32  id
+- int32  permissions
 
+string name
+string master
+string motd
+string myRank
+string ad
+string emblem
 int32 id
 int32 unk1
 int32 unk2
@@ -37,15 +39,3 @@ int32 levelMax
 int32 unk18 # join method?
 int32 unk19 # 2
 byte  unk20
-string name
-string master
-string motd
-string myRank
-string ad
-string emblem
-
-array ranks
-- offset name
-- int32  id
-- int32  permissions
-- string name

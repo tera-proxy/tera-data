@@ -1,2 +1,2 @@
-int32 id # See S_OPEN_BOARD
 string message
+int32 id # See S_OPEN_BOARD

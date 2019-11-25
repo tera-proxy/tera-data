@@ -1,27 +1,6 @@
-count  members
-offset members
-offset guildName
-offset guildMaster
-
-int32  guildId
-int32  guildMasterId
-int32  guildLevel
-int64  guildXp
-int64  guildXpForLevel
-int64  guildFunds
-int32  characters
-int32  accounts
-int32  size # 0 = small, 1 = medium, 2 = large
-int64  creationDate
-byte   last
-byte   first
-byte   unk
-string guildName
-string guildMaster
-
 array members
-- offset name
-- offset note
+- string name
+- string note
 - int32  playerID
 - int32  unk1
 - int32  location1
@@ -37,5 +16,19 @@ array members
 - int32  contributionTotal # maybe int64?
 - int32  unk3
 - uint64 lastOnline # in seconds
-- string name
-- string note
+
+string guildName
+string guildMaster
+int32  guildId
+int32  guildMasterId
+int32  guildLevel
+int64  guildXp
+int64  guildXpForLevel
+int64  guildFunds
+int32  characters
+int32  accounts
+int32  size # 0 = small, 1 = medium, 2 = large
+int64  creationDate
+byte   last
+byte   first
+byte   unk

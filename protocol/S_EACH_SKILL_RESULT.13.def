@@ -1,5 +1,12 @@
 # majorPatchVersion.minorPatchVersion >= 74.02
 
+object reaction # Used for knockdown, stagger etc.
+- array animSeq
+- - int32 duration
+- - float xyRate
+- - float zRate
+- - float distance
+
 uint64  source
 uint64  owner      # If non-zero, then source is a projectile and this is its owner
 uint64  target
@@ -18,7 +25,7 @@ bool    superArmor
 int32   superArmorId
 int32   hitCylinderId
 
-object  reaction   # Used for knockdown, stagger etc.
+object  reaction   # continue
 - bool    enable
 - bool    push
 - bool    air
@@ -28,8 +35,3 @@ object  reaction   # Used for knockdown, stagger etc.
 - skillid skill
 - int32   stage
 - uint32  id
-- array   animSeq
-- - int32 duration
-- - float xyRate
-- - float zRate
-- - float distance

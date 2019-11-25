@@ -1,9 +1,9 @@
+array basket
+- uint32 item
+- uint32 amount
+
 uint64 gameId
 uint32 contract
 uint32 credits
 uint32 rank
 uint32 cost
-
-array basket
--uint32 item
--uint32 amount

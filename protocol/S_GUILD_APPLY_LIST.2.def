@@ -1,11 +1,11 @@
+array apps
+- string name
+- string message
+- uint32 playerId
+- uint32 class
+- uint32 level
+- int64 time # unix
+
 byte unk #1?
 int32 unk2 #1?
 int32 unk3 #1?
-
-array apps
--uint32 playerId
--uint32 class
--uint32 level
--int64 time # unix
--string name
--string message

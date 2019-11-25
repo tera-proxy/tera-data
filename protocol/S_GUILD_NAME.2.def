@@ -1,5 +1,5 @@
-uint64 gameId
 string guildName
 string guildRank
 string guildTitle
 string guildLogo
+uint64 gameId

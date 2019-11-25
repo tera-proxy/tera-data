@@ -1,3 +1,2 @@
-offset  message
-byte    isRaid
 string  message
+byte    isRaid

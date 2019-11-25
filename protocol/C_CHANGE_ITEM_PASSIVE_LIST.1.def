@@ -1,5 +1,5 @@
-uint32 unk
-
 array stats
--int32 index # index of chosen stats
--uint32 id
+- int32 index # index of chosen stats
+- uint32 id
+
+uint32 unk

@@ -1,3 +1,6 @@
+array items
+- uint32 id
+- uint32 amount
 uint32 eventType
 uint32 points
 uint32 category
@@ -5,6 +8,3 @@ uint64 money
 uint32 exp
 uint32 talentExp
 uint32 unk1
-array items
-- uint32 id
-- uint32 amount

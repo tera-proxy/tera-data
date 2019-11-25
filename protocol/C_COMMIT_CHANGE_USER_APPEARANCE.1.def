@@ -1,12 +1,7 @@
-offset details
-count  details
-offset details2
-count  details2
-
+bytes  details
+bytes  details2
 int32  playerId
 int32  race
 int32  gender
 uint64 appearance
 int32  unk # 100
-bytes  details
-bytes  details2

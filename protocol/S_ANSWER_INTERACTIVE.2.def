@@ -1,9 +1,7 @@
-offset name
-
+string name
 int32 unk
 int32 model
 int32 level
 bool hasParty # false = display Invite to party in tooltip
 bool hasGuild # false = display Invite to guild in tooltip
 uint32 serverId
-string name

@@ -1,5 +1,12 @@
 # MajorPatchVersion >= 74
 
+object reaction # Used for knockdown, stagger etc.
+- array movement
+- - int32 duration
+- - float speed
+- - float unk # always 1?
+- - float distance
+
 uint64  source
 uint64  owner      # If non-zero, then source is a projectile and this is its owner
 uint64  target
@@ -19,7 +26,7 @@ bool    blocked
 int32   part
 int32   unk # 0?
 
-object  reaction   # Used for knockdown, stagger etc.
+object  reaction   # continue
 - bool    enable
 - bool    instantPush
 - bool    air
@@ -29,8 +36,3 @@ object  reaction   # Used for knockdown, stagger etc.
 - skillid skill
 - int32   stage
 - uint32  id
-- array   movement
-- - int32 duration
-- - float speed
-- - float unk # always 1?
-- - float distance

@@ -1,5 +1,6 @@
-uint32 id
 string name
 
 array friends
--uint32 playerId
+- uint32 playerId
+
+uint32 id

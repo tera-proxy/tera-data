@@ -1,12 +1,13 @@
+array tabs
+- array items
+- - uint32 id
+- - uint32 netPrice
+- - uint32 reqRank
+- uint32 caption
+
 uint64 cid
 uint32 contract
 uint32 button
 uint32 tokens
 uint32 rank
 uint32 faction
-array tabs
-- uint32 caption
-- array items
-- - uint32 id
-- - uint32 netPrice
-- - uint32 reqRank

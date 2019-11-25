@@ -1,16 +1,13 @@
 # majorPatchVersion >= 86
 
-bool   veteran
-int32  bonusBufSec
-int32  maxCharacters
-bool   first
-bool   more
-int32  leftDelTimeAccountOver
-int32  deletionSectionClassifyLevel
-int32  deleteCharacterExpireHour1
-int32  deleteCharacterExpireHour2
-
 array  characters
+- array     customStrings
+- - int32   id
+- - string  string
+- string    name
+- bytes     details
+- bytes     shape
+- string    guildName
 - uint32    id
 - int32     gender # 1 = female, 2 = male
 - int32     race   # 0..5
@@ -102,11 +99,12 @@ array  characters
 - int32     awakeningLevel
 - bool      hasBrokerSales
 
-- array     customStrings
-- - int32   id
-- - string  string
-
-- string    name
-- bytes     details
-- bytes     shape
-- string    guildName
+bool   veteran
+int32  bonusBufSec
+int32  maxCharacters
+bool   first
+bool   more
+int32  leftDelTimeAccountOver
+int32  deletionSectionClassifyLevel
+int32  deleteCharacterExpireHour1
+int32  deleteCharacterExpireHour2

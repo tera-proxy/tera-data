@@ -1,7 +1,4 @@
-offset unk1
-offset message
-
-int32 type # 1 = start, 3 = continuation, 5 = end
-int32 value # gage percent
 string unk1 # korean?
 string message
+int32 type # 1 = start, 3 = continuation, 5 = end
+int32 value # gage percent

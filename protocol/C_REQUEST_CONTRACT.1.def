@@ -1,6 +1,6 @@
+string name
+bytes  data
 int32  type # see S_REQUEST_CONTRACT.1
 int32  unk2
 int32  unk3
 int32  unk4
-string name
-bytes  data

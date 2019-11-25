@@ -1,7 +1,7 @@
-uint32 channel              # see cChat.def
+string name
+string message
+uint32 channel              # see C_CHAT
 uint64 gameId
 bool   isWorldEventTarget   # see S_SPAWN_USER
 bool   gm
 bool   founder              # CBT User. Early access set.
-string name
-string message

@@ -1,6 +1,6 @@
-int32 points
-int32 pointsActive
-
 array crests
 - int32 id
 - bool  enable
+
+int32 points
+int32 pointsActive

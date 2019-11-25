@@ -1,7 +1,6 @@
-offset os
-offset cpu
-offset gpu
-
+string os
+string cpu
+string gpu
 uint32 systemMemory
 uint32 unk2
 uint32 resWidth
@@ -14,7 +13,3 @@ uint32 unk7
 uint32 unk8
 uint32 unk9
 uint32 unk10
-
-string os
-string cpu
-string gpu

@@ -1,3 +1,9 @@
+array buttons
+- string text
+- uint32 id
+- uint32 index
+- uint32 type
+
 uint32 questRewardItr # too lazy to add...
 uint64 npc
 uint32 dialogType
@@ -16,9 +22,3 @@ uint32 unk5
 uint32 unk6
 int32 unk7
 bool additionalRewardEvent
-
-array buttons
-- uint32 id
-- uint32 index
-- uint32 type
-- string text

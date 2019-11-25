@@ -1,4 +1,4 @@
-byte unk
-
 array glyphs
 - uint32 glyphId
+
+byte unk

@@ -1,5 +1,12 @@
 # MajorPatchVersion >= 74
 
+object targetAction # Used for knockdown, stagger etc.
+- array movement
+- - int32 duration
+- - float speed
+- - float unk # always 1?
+- - float distance
+
 uint64 source
 uint64 owner # If non-zero, then source is a projectile and this is its owner
 uint64 target
@@ -17,7 +24,7 @@ bool   blocked
 uint32 unk2 # 0?
 uint32 unk3 # 0?
 
-object targetAction # Used for knockdown, stagger etc.
+object targetAction # continue
 - bool   enable
 - bool   unk1 # teleport?
 - byte   unk2
@@ -27,8 +34,3 @@ object targetAction # Used for knockdown, stagger etc.
 - skillid skill
 - int32  stage
 - uint32 id
-- array  movement
-- - int32 duration
-- - float speed
-- - float unk # always 1?
-- - float distance

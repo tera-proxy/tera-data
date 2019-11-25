@@ -1,6 +1,3 @@
-count  groups
-offset groups
-array  groups
-- offset name
-- int32  index
+array groups
 - string name
+- int32  index
