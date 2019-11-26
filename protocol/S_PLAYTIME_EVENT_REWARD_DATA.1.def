@@ -1,10 +1,11 @@
-int32 unk1
 array items
-  - int32 row
-  - int32 timeRequired #in minutes
-  - int32 column
-  - int32 itemId
-  - int32 quantity
-  - int32 unk2
-  - byte redeemable
-  - byte redeemed
+- int32 row
+- int32 timeRequired # in minutes
+- int32 column
+- int32 itemId
+- int32 quantity
+- int32 unk2
+- byte redeemable
+- byte redeemed
+
+int32 unk1

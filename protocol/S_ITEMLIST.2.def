@@ -1,19 +1,16 @@
 # majorPatchVersion >= 86
 
-uint64			gameId
-int32			container # 0: inventory, 14: equipment - see S_SHOW_ITEM_TOOLTIP
-int32			pocket
-int32			numPockets
-int32			size
-int64			money
-int32			lootPriority # 0: none, 1: fishing & cooking, 2: gathering & crafting
-bool			open
-bool			requested # false if sent by server without C_SHOW_ITEMLIST; otherwise same as 'requested' flag in C_SHOW_ITEMLIST
-bool			first
-bool			more
-bool			lastInBatch # true for all packets of the final (container, pocket) transmitted in a batch; false for the others
-
 array			items
+- array<int32>	crystals
+- array			passivitySets
+- - uint32			index
+- - int32			masterworkBonus
+- - float			itemLevel
+- - float			minItemLevel
+- - float			maxItemLevel
+- - array<int32>	passivities
+- array<int32>	mergedPassivities
+- string		customString
 - int32			id
 - uint64		dbid
 - uint64		ownerId # playerId
@@ -49,16 +46,15 @@ array			items
 - int64			xp
 - bool			damaged # damaged due to enchant/upgrade failure, needs to be repaired.
 
-- array<int32>	crystals
-
-- array			passivitySets
-- - uint32			index
-- - int32			masterworkBonus
-- - float			itemLevel
-- - float			minItemLevel
-- - float			maxItemLevel
-- - array<int32>	passivities
-
-- array<int32>	mergedPassivities
-
-- string		customString
+uint64			gameId
+int32			container # 0: inventory, 14: equipment - see S_SHOW_ITEM_TOOLTIP
+int32			pocket
+int32			numPockets
+int32			size
+int64			money
+int32			lootPriority # 0: none, 1: fishing & cooking, 2: gathering & crafting
+bool			open
+bool			requested # false if sent by server without C_SHOW_ITEMLIST; otherwise same as 'requested' flag in C_SHOW_ITEMLIST
+bool			first
+bool			more
+bool			lastInBatch # true for all packets of the final (container, pocket) transmitted in a batch; false for the others

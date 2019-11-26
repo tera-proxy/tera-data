@@ -1,3 +1,15 @@
+array  unk22
+- int32  unk1
+- uint64 unk2
+- float  unk3
+- int32  unk4
+- int32  unk5
+- int32  unk6
+- int32  unk7
+
+array  unk24
+
+string npcName # in korean (why???)
 uint64 gameId
 uint64 target
 vec3   loc
@@ -26,16 +38,3 @@ uint64 unk18
 byte   unk19
 int32  unk20
 int32  unk25
-
-array  unk22
-- int32  unk1
-- uint64 unk2
-- float  unk3
-- int32  unk4
-- int32  unk5
-- int32  unk6
-- int32  unk7
-
-array  unk24
-
-string npcName # in korean (why???)

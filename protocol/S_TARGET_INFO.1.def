@@ -1,7 +1,13 @@
-count  abnormals
-offset abnormals
-count  conditions
-offset conditions
+array abnormals
+- uint32 id
+- int32  duration
+- int32  unk
+- int32  stacks
+
+array conditions
+- uint32 id
+- int32  duration
+- byte   status
 
 uint64 target
 float  hp
@@ -13,14 +19,3 @@ int32  edgeD
 float  edgeF
 int32  unk1 # always 8000?
 int32  unk2 # 3 or 5?
-
-array abnormals
-- uint32 id
-- int32  duration
-- int32  unk
-- int32  stacks
-
-array conditions
-- uint32 id
-- int32  duration
-- byte   status

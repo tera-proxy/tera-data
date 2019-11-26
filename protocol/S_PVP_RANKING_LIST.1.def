@@ -1,7 +1,7 @@
 array players
--int32 unk #probably previous rank for going up/down icon
--byte unk2 #probably to do something with going up/down icon
--int32 rank
--int32 rating
--int32 class
--string name
+- string name
+- int32 unk # probably previous rank for going up/down icon
+- byte unk2 # probably to do something with going up/down icon
+- int32 rank
+- int32 rating
+- int32 class

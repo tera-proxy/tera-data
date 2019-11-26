@@ -1,13 +1,6 @@
-uint64 gameId
-int32  type # 0 = Legacy Bank (4 tabs), 1 = Bank, 3 = Guild Bank, 9 = Pet, 12 = Wardrobe
-int32  action # Setting this to 1 closes the window, other values do nothing
-int32  offset # Determines which tab is currently selected
-int32  lastUsedSlot # Determines number of temporary storage tabs available
-int32  slotsUsed
-int64  gold
-int16  slots # Determines number of unlocked tabs
-
 array items
+- array  crystals
+- - int32 id
 - int32  id
 - uint64 dbid
 - uint64 ownerId
@@ -27,5 +20,11 @@ array items
 - bool   awakened
 - uint32 unk8
 
-- array  crystals
-- - int32 id
+uint64 gameId
+int32  type # 0 = Legacy Bank (4 tabs), 1 = Bank, 3 = Guild Bank, 9 = Pet, 12 = Wardrobe
+int32  action # Setting this to 1 closes the window, other values do nothing
+int32  offset # Determines which tab is currently selected
+int32  lastUsedSlot # Determines number of temporary storage tabs available
+int32  slotsUsed
+int64  gold
+int16  slots # Determines number of unlocked tabs

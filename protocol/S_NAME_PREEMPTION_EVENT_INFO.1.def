@@ -1,5 +1,4 @@
-offset name
-
+string name
 uint32 unk1 # 1
 uint32 unk2 # 90 60 E3 58
 uint32 unk3 # 0
@@ -7,5 +6,3 @@ uint32 unk4 # 60 AB F5 58
 uint32 unk5 # 0
 byte unk6 # 1
 byte unk7 # 1
-
-string name

@@ -1,13 +1,9 @@
-count   listings
-offset  listings
-int16   pageCurrent # page - 1
-int16   pageCount # pages - 1
-
 array   listings
-- offset    message
-- offset    leader
+- string    message # LFG message
+- string    leader # leader name
 - int32     leaderId # playerId
 - byte      isRaid
 - int16     playerCount
-- string    message # LFG message
-- string    leader #leader name
+
+int16   pageCurrent # page - 1
+int16   pageCount # pages - 1

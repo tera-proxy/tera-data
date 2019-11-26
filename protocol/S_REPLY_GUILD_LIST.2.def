@@ -1,19 +1,14 @@
-count  guilds
-offset guilds
- 
-int32  currentPage
-int32  totalPages
-int32  totalGuilds
 array  guilds
-- offset name
-- offset emblem
-- offset ad
+- string name
+- string emblem
+- string ad
 - int32  id
 - int32  members
 - int32  unk1
 - int32  unk2
 - int32  levelMin
 - int32  levelMax
-- string name
-- string emblem
-- string ad
+ 
+int32  currentPage
+int32  totalPages
+int32  totalGuilds

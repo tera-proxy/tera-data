@@ -1,26 +1,24 @@
+array messages
+- array items
+- - uint64 dbid
+- - int32 id
+- - int32 amount
+- - bool masterwork
+- - int32 enigma
+- - int32 enchant
+- - bool awakened
+- string sender
+- string subject
+- uint32 id
+- uint32 type           # 0: message only, 1: player parcel, 102: system parcel
+- uint32 status         # 0: unread, 1: parcel read but contents unclaimed, 2: read with nothing to claim
+- uint64 receiveTime    # unix timestamp
+- uint64 attachedMoney
+- uint64 codMoney
+- uint64 expireTime     # unix timestamp
+- bool read
+
 uint32 type             # 0: Inbox, 1: Outbox
 uint32 currentPage
 uint32 totalPages
 uint32 playerMessages   # Number of messages and parcels sent by players
-
-array messages
- - uint32 id
- - uint32 type          # 0: message only, 1: player parcel, 102: system parcel
- - uint32 status        # 0: unread, 1: parcel read but contents unclaimed, 2: read with nothing to claim
- - uint64 receiveTime   # unix timestamp
- - uint64 attachedMoney
- - uint64 codMoney
- - uint64 expireTime    # unix timestamp
- - bool read
- 
- - array items
- - - uint64 dbid
- - - int32 id
- - - int32 amount
- - - bool masterwork
- - - int32 enigma
- - - int32 enchant
- - - bool awakened
- 
- - string sender
- - string subject

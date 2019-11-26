@@ -1,19 +1,19 @@
+array battlefields
+- uint32 id
+- uint32 format #Formatting of stats
+- uint32 wins
+- uint32 losses
+- uint32 draws
+- uint32 kills
+- uint32 deaths
+- uint32 assists
+- uint32 previousRating
+- int32 unk2
+- int32 unk3
+- uint32 destroyed
+- uint32 rating
+- uint32 icon # 0 = bronze, 1 = silver, 2 = gold
+- uint32 captured
+
 int32 unk
 int32 days #     reset every x days.
-
-array battlefields
--uint32 id
--uint32 format #Formatting of stats
--uint32 wins
--uint32 losses
--uint32 draws
--uint32 kills
--uint32 deaths
--uint32 assists
--uint32 previousRating
--int32 unk2
--int32 unk3
--uint32 destroyed
--uint32 rating
--uint32 icon # 0 = bronze, 1 = silver, 2 = gold
--uint32 captured

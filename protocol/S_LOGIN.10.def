@@ -1,5 +1,8 @@
 # MajorPatchVersion >= 67
 
+string name
+bytes  details
+bytes  shape
 uint32 templateId # For players the convention is 1XXYY (X = 1 + race*2 + gender, Y = 1 + class). See C_CREATE_USER
 uint64 gameId # globally-unique identifier for this session
 uint32 serverId
@@ -73,6 +76,3 @@ int32  appearance2 # unknown, but client ignores shape if this is invalid
 float  scale
 int32  unk15
 byte   unk16
-string name
-bytes  details
-bytes  shape

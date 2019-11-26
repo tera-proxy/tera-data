@@ -1,4 +1,4 @@
-offset name
+string name
 byte unk1 # ???
 int32 pid # ???
 int16 class
@@ -6,4 +6,3 @@ int16 race
 int16 gender
 int16 level
 byte unk2 # ???
-string name

@@ -1,17 +1,10 @@
-count battles
-offset battles
+array battles
+- string attackName
+- string attackEmblem
+- string defendName
+- string defendEmblem
+- int32 result # 0 = declare, 1 = Withdrew, 2 = Surrendered
+- int64 date # unix
 
 int32 page
 int32 maxPages
-
-array battles
--offset attackName
--offset attackEmblem
--offset defendName
--offset defendEmblem
--int32 result # 0 = declare, 1 = Withdrew, 2 = Surrendered
--int64 date # unix
--string attackName
--string attackEmblem
--string defendName
--string defendEmblem

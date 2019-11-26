@@ -1,6 +1,5 @@
-int32 page
-int32 pageCount
 array listings
+- string name
 - int32 auction
 - uint64 dbid
 - int32 id
@@ -19,4 +18,6 @@ array listings
 - uint8 unk3
 - bool awakened
 - in32 unk4
-- string name
+
+int32 page
+int32 pageCount

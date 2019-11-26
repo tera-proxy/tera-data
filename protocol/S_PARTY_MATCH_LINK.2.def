@@ -1,9 +1,6 @@
-offset name
-offset message
-
+string name
+string message
 int32  id
 byte   unk
 byte   raid
-int32  unk2 #always 65? Possibly level limit
-string name
-string message
+int32  unk2 # always 65? Possibly level limit

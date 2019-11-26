@@ -1,3 +1,4 @@
+string unk3
 bool   enabled
 int32  tier
 int32  points1 # points1 + points2 = total (one of these is for EMP spent and the other for events - not sure which)
@@ -7,4 +8,3 @@ bool   dailyCredits # true if the user hasn't claimed credits today
 int64  shopResetSec
 int64  dungeonResetSec
 byte   unk2 # 0-1?
-string unk3

@@ -1,11 +1,7 @@
-offset author
-offset recipient
-offset message
-
+string author
+string recipient
+string message
 uint64 player
 byte   unk1
 byte   gm
 byte   unk2
-string author
-string recipient
-string message

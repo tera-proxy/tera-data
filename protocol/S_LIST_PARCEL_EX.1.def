@@ -1,26 +1,18 @@
-count messages
-offset messages
+array messages
+- array items
+- - uint64 unk2
+- - uint32 item
+- - uint16 quantity
+- - uint32 unk3
+- - uint32 unk4
+- - uint32 unk5
+- string sender
+- string subject
+- uint32 id
+- uint32 type # 0 = message only, 1 = player parcel, 102 = system parcel
+- uint32 read # 0 = unread, 1 = parcel read but contents unclaimed, 2 = read with nothing to claim
 
 uint32 unk1
 uint32 currentPage
 uint32 totalPages
 uint32 playerMessages # Number of messages and parcels sent by players
-
-array messages
- - count items
- - offset items
- - offset sender
- - offset subject
- - uint32 id
- - uint32 type # 0 = message only, 1 = player parcel, 102 = system parcel
- - uint32 read # 0 = unread, 1 = parcel read but contents unclaimed, 2 = read with nothing to claim
- - string sender
- - string subject
- 
- - array items
- - - uint64 unk2
- - - uint32 item
- - - uint16 quantity
- - - uint32 unk3
- - - uint32 unk4
- - - uint32 unk5

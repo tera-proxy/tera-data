@@ -1,21 +1,14 @@
-count  guilds
-offset guilds
+array  guilds
+- string name
+- string emblem
+- string ad
+- int32  id
+- int32  members
+- int32  howToJoin # from 1: Send Message, Join Now, Closed
+- int32  playStyle # Bit flags - 0x01 = PvE, 0x02 = PvP, 0x04 = Casual
+- int32  levelMin
+- int32  levelMax
  
 int32  currentPage
 int32  totalPages
 int32  totalGuilds
-array  guilds
-- offset name
-- offset emblem
-- offset ad
-- int32  id
-- int32  members
-- int32  howToJoin # from 1: Send Message, Join Now, Closed
-- int32  playStyle 
-# 0 = No Play Style, 1 = PvE, 2 = PvP, 4 = Casual
-# playStyle = sum of the above
-- int32  levelMin
-- int32  levelMax
-- string name
-- string emblem
-- string ad

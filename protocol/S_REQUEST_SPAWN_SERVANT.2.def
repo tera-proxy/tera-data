@@ -1,5 +1,10 @@
 # majorPatchVersion >= 81
 
+array<uint32> giftedSkills
+array    abilities
+- uint32 id
+- bool   active
+string   name
 uint64   gameId
 uint64   dbid
 vec3     loc
@@ -15,8 +20,3 @@ int32    energy
 int32    spawnType # 0: enter world, 1: enter visible range
 int32    level
 int32    fellowship
-array<uint32> giftedSkills
-array    abilities
-- uint32 id
-- bool   active
-string   name

@@ -1,4 +1,13 @@
 array quests
+- array dialogs
+- - float x
+- - float y
+- - float z
+- - int32 huntingZoneId
+- - int32 templateId
+- - int32 zone
+- array tasks
+- - int32 progress
 - int32 id
 - int32 uid
 - int32 step
@@ -14,14 +23,3 @@ array quests
 - int32 unk9  # 0?
 - int32 unk10 # 0?
 - int32 unk11 # 0?
-
-- array dialogs
-- - float x
-- - float y
-- - float z
-- - int32 huntingZoneId
-- - int32 templateId
-- - int32 zone
-
-- array tasks
-- - int32 progress

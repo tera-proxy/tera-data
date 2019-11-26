@@ -1,8 +1,5 @@
-count  items
-offset items
+array  items
+- string text
+- int32  item
 
 uint64 owner
-array  items
-- offset text
-- int32  item
-- string text

@@ -1,5 +1,4 @@
-offset  name
-
+string  name
 uint64  id
 float   x
 float   y
@@ -15,4 +14,3 @@ uint64  owner
 uint32  unk6
 uint32  energy
 uint32  unk7
-string  name

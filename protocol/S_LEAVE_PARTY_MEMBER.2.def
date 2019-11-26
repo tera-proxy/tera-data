@@ -1,5 +1,3 @@
-offset name
-
+string name
 uint32 serverId
 uint32 playerId
-string name

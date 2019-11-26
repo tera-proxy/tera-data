@@ -1,9 +1,3 @@
-float x
-float y
-float z
-uint32 unk1
-bool unk2
-
 array destinations
 - uint32 id
 - float x
@@ -11,3 +5,9 @@ array destinations
 - float z
 - uint64 price
 - bool available
+
+float x
+float y
+float z
+uint32 unk1
+bool unk2

@@ -1,7 +1,7 @@
 # Overrides equipment tooltips
 
-uint64 player # ignored by client
-
 array equipment
 - int32 slot
 - int32 dbid
+
+uint64 player # ignored by client

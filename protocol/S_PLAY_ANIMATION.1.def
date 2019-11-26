@@ -1,5 +1,5 @@
+string animName
 int64 gameId
 float rate
 double duration
 double blendTime
-string animName

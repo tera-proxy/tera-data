@@ -1,5 +1,24 @@
 # majorPatchVersion >= 79
 
+# Info seats of vehicle NPCs
+array  seats
+- uint32 id
+- uint64 passengerId
+- angle  pitch
+- angle  yaw
+- int64  passengerMaxHp
+- int32  passengerMaxMp
+- int64  passengerHp
+- int32  passengerMp
+
+# Info about dynamic NPC model parts. Added in majorPatchVersion 50 for Vergos. See NpcPartEffectData in datacenter
+array  parts
+- uint32 id
+- uint32 curStage
+- bool   active
+- uint32 lastStage
+
+string npcName                  # Internal name/description for debugging purposes
 uint64 gameId
 uint64 target
 vec3   loc
@@ -32,23 +51,3 @@ uint32 activeCylinder           # sets active cylinder ID for collision/hit dete
 bool   repairable               # used to mark repairable vehicle NPCs. Also seems to disable special NPC markers (effects above the heads of merchants, for example) if set to false
 uint32 flightInteractionType    # see NpcInteractionData in datacenter
 bool   unkn1
-
-# Info seats of vehicle NPCs
-array  seats
-- uint32 id
-- uint64 passengerId
-- angle  pitch
-- angle  yaw
-- int64  passengerMaxHp
-- int32  passengerMaxMp
-- int64  passengerHp
-- int32  passengerMp
-
-# Info about dynamic NPC model parts. Added in majorPatchVersion 50 for Vergos. See NpcPartEffectData in datacenter
-array  parts
-- uint32 id
-- uint32 curStage
-- bool   active
-- uint32 lastStage
-
-string npcName                  # Internal name/description for debugging purposes

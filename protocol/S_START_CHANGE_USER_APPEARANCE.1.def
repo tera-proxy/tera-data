@@ -1,8 +1,5 @@
-offset details
-count  details
-offset details2
-count  details2
-
+bytes  details
+bytes  details2
 int32  type # 1 = race, 2 = gender, 3 = appearance
 int32  playerId
 int32  gender
@@ -45,5 +42,3 @@ int32  unk23
 int32  unk24
 int32  unk25 # 100
 int32  item
-bytes  details
-bytes  details2

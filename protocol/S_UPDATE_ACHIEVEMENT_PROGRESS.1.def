@@ -1,11 +1,7 @@
-count  achievements
-offset achievements
-array  achievements
-- count  requirements
-- offset requirements
-- int32  id
-- array  requirements
+array achievements
+- array requirements
 - - int32 index
 - - int32 unk
 - - int32 amount
 - - int32 unk2 # amount is int64?
+- int32 id

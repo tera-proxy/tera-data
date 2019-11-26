@@ -1,11 +1,7 @@
-offset authorName
-offset recipient
-offset message
-
+string authorName
+string recipient
+string message
 uint64 player
 byte   unk1
 byte   gm
 byte   founder # CBT User. Early access set.
-string authorName
-string recipient
-string message

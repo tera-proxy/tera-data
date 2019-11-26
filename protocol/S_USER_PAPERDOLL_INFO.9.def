@@ -1,5 +1,65 @@
 # majorPatchVersion >= 80 && majorPatchVersion < 85
 
+array items # see S_INVEN
+- array  passivitySets
+- - array<int32> passivities
+- - uint32 index
+- - int32  masterworkBonus
+- - int32  itemLevel
+- - int32  minItemLevel
+- - int32  maxItemLevel
+- array<int32> mergedPassivities
+- int32  id
+- uint64 dbid
+- uint64 ownerId
+- uint32 slot
+- int32  storageType
+- int32  amount
+- int32  enchant
+- int32  durability
+- bool   soulbound
+- int32  crystal1
+- int32  crystal2
+- int32  crystal3
+- int32  crystal4
+- int32  crystal5
+- int32  passivitySet
+- int32  extraPassivitySets
+- int32  remodel
+- uint32 dye
+- int32  dyeSecRemaining
+- int64  dyeDate
+- int64  dyeExpiryDate
+- bool   masterwork
+- int32  enigma
+- int32  timesBrokered
+- int32  enchantAdvantage
+- int32  enchantBonus
+- int32  enchantBonusMaxPlus
+- uint64 boundToPlayer
+- bool   awakened
+- int32  liberationStatus
+- int32  feedstock
+- int32  boundToItem
+- bool   hasEtching
+- bool   pcbang
+- int64  xp
+
+array dungeons # see S_DUNGEON_COOL_TIME_LIST
+- uint32 id
+- uint32 type
+- uint32 cooldown
+- int16 entriesDay
+- int16 entriesWeek
+
+array equipmentOverrides
+- uint32 slot
+- int32 id
+
+string name
+string status
+string guild
+string guildRank
 uint32 templateId
 uint64 gameId
 uint32 serverId
@@ -72,64 +132,3 @@ uint32 styleBody
 uint32 styleFootprint
 uint32 flightDataId
 float  flightSpeedMultiplier
-
-array items # see S_INVEN
-- int32  id
-- uint64 dbid
-- uint64 ownerId
-- uint32 slot
-- int32  storageType
-- int32  amount
-- int32  enchant
-- int32  durability
-- bool   soulbound
-- int32  crystal1
-- int32  crystal2
-- int32  crystal3
-- int32  crystal4
-- int32  crystal5
-- int32  passivitySet
-- int32  extraPassivitySets
-- int32  remodel
-- uint32 dye
-- int32  dyeSecRemaining
-- int64  dyeDate
-- int64  dyeExpiryDate
-- bool   masterwork
-- int32  enigma
-- int32  timesBrokered
-- int32  enchantAdvantage
-- int32  enchantBonus
-- int32  enchantBonusMaxPlus
-- uint64 boundToPlayer
-- bool   awakened
-- int32  liberationStatus
-- int32  feedstock
-- int32  boundToItem
-- bool   hasEtching
-- bool   pcbang
-- int64  xp
-- array  passivitySets
-- - uint32 index
-- - int32  masterworkBonus
-- - int32  itemLevel
-- - int32  minItemLevel
-- - int32  maxItemLevel
-- - array<int32> passivities
-- array<int32> mergedPassivities
-
-array dungeons # see S_DUNGEON_COOL_TIME_LIST
-- uint32 id
-- uint32 type
-- uint32 cooldown
-- int16 entriesDay
-- int16 entriesWeek
-
-array equipmentOverrides
-- uint32 slot
-- int32 id
-
-string name
-string status
-string guild
-string guildRank

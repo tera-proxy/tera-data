@@ -1,9 +1,7 @@
-offset name
-
+string name
 uint32 playerId
 uint32 listing
 int32 item
 int64 amount
 int64 sellerPrice
 int64 offeredPrice
-string name

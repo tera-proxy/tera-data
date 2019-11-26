@@ -1,6 +1,6 @@
+string name
 int32  unk1 # 1
 int64  startDate
 int64  endDate
 bool   unk2 # 1
 bool   unk3 # 1
-string name

@@ -1,7 +1,15 @@
-# Protocol version 323464
-
-count  members
-offset members
+array  members
+- string name
+- uint32 serverId
+- uint32 playerId
+- uint32 level
+- uint32 class # 0..12
+- bool   online
+- uint64 gameId
+- int32  order # 0..n
+- byte   canInvite # ?
+- uint32 laurel # 0..5 (none, bronze, silver, gold, diamond, champion)
+- int32  awakened # 1 == true or 0 == false .. mark on party ui
 
 bool   ims
 bool   raid
@@ -18,16 +26,3 @@ uint32 unk8 # 1?
 byte   unk9 # 0?
 uint32 unk10 # 1?
 byte   unk11 # 0?
-array  members
-- offset name
-- uint32 serverId
-- uint32 playerId
-- uint32 level
-- uint32 class # 0..12
-- bool   online
-- uint64 gameId
-- int32  order # 0..n
-- byte   canInvite # ?
-- uint32 laurel # 0..5 (none, bronze, silver, gold, diamond, champion)
-- int32  awakened # 1 == true or 0 == false .. mark on party ui
-- string name

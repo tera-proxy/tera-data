@@ -1,5 +1,10 @@
 # majorPatchVersion >= 81
 
+array<uint32> giftedSkills
+array    abilities
+- uint32 id
+- bool   active
+string   name
 uint64   gameId
 uint64   dbid
 vec3     loc
@@ -17,8 +22,3 @@ int32    level
 int32    fellowship
 uint32   styleItem
 uint32   restyleId
-array<uint32> giftedSkills
-array    abilities
-- uint32 id
-- bool   active
-string   name

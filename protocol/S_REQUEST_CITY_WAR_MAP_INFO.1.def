@@ -1,11 +1,11 @@
+array guilds
+- int32 unk # 0 for myself, 1 for every other guild?
+- uint32 guildId
+- int32 kills
+- int32 deaths
+- float towerHp
+- vec3 loc
+
 int32 unk # id?
 int32 unk2 # state?
 int32 timeRemaining # in seconds
-
-array guilds
--int32 unk # 0 for myself, 1 for every other guild?
--uint32 guildId
--int32 kills
--int32 deaths
--float towerHp
--vec3 loc

@@ -1,3 +1,12 @@
+array  icons
+- int32 id
+array  unkArray
+bytes  details
+bytes  shape
+string guildName
+string guildLogo
+string guildRank
+string name
 uint32 serverId
 uint32 playerId
 uint64 gameId # Player being transformed into, or the user if none
@@ -52,15 +61,3 @@ vec3fa styleBackRotation
 vec3   styleBackTranslation
 vec3   styleBackTranslationDebug
 bool   accessoryTransformUnk
-
-array  icons
-- int32 id
-
-array  unkArray
-
-bytes  details
-bytes  shape
-string guildName
-string guildLogo
-string guildRank
-string name

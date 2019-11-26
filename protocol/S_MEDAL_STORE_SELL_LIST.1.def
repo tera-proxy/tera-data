@@ -1,11 +1,11 @@
+array tabs
+- array items
+- - uint32 id
+- - int32 netPrice
+- uint32 caption
+
 uint64 gameId
 uint32 contract
 uint32 button
 uint64 medals
 uint32 itemId
-
-array tabs
--uint32 caption
--array items
---uint32 id
---int32 netPrice

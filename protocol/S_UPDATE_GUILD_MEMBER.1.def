@@ -1,4 +1,4 @@
-offset name
+string name
 uint32 playerID
 uint32 location1
 uint32 location2
@@ -12,4 +12,3 @@ int32  gender
 int64  lastOnline
 byte   unk3
 byte   unk4
-string name

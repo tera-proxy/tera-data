@@ -1,9 +1,8 @@
+array battlefields
+- uint32 id
+
 uint32 season
 uint64 seasonStart # unix time
 uint64 seasonEnd # unix time
-
-array battlefields
--uint32 id
-
 int32 unk
 int32 unk2

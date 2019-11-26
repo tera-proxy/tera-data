@@ -1,9 +1,9 @@
 # this is used to indicate how much time you have left on
 # temporary riding skills, pet skills, ruler of dragons, etc
-uint64 target
-
 array skillPeriods
 - uint32 skill
 - uint32 time
 - uint32 unk3 # 0?
 - uint32 unk4 # 0?
+
+uint64 target

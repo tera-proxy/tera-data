@@ -1,12 +1,9 @@
-count  targets
-offset targets
-
-int32  quest
-int32  unk1
-int32  unk2
-
 array  targets
 - int32 info1
 - int32 info2
 - int32 completed
 - int32 total
+
+int32  quest
+int32  unk1
+int32  unk2

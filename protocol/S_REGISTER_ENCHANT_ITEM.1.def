@@ -1,3 +1,11 @@
+array materials
+- uint32 id
+- uint32 amount
+
+array successChances
+- uint32 unk
+- float chance
+
 uint32 contractId
 uint64 uniqueId
 uint32 itemId
@@ -11,11 +19,3 @@ uint32 enchantLevelMax
 uint32 itemLevel
 uint32 itemLevelMax
 uint64 price
-
-array materials
-- uint32 id
-- uint32 amount
-
-array successChances
-- uint32 unk
-- float chance

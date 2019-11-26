@@ -1,4 +1,2 @@
-offset name
-
-uint64 pid
 string name
+uint64 pid

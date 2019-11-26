@@ -1,3 +1,61 @@
+array  crystals
+- int32 dbid
+
+array  passivitySets
+- array  passivities
+- - int32 dbid
+- uint32 index
+- int32  masterworkBonus
+- int32  itemLevel
+- int32  minItemLevel
+- int32  maxItemLevel
+
+# As of RK-9 patch this no longer displays in the UI (probably a bug) and some variables were removed
+# Note: The magic number -1000 hides individual stats
+array  statComparison
+- uint32 index # corresponds with passivity set
+- int32  stat1
+- int32  stat2
+- int32  stat3
+- int32  stat4
+- int32  stat5
+- float  stat6
+- float  stat7
+- float  stat8
+- int32  stat9
+- int32  stat10
+- int32  stat11
+- int32  stat12
+- float  stat13
+- float  stat14
+- float  stat15
+- int32  unk1
+- int32  unk2
+- int32  unk3
+- int32  unk4
+- int32  unk5
+- int32  unk6
+- int32  unk7
+- int32  unk8
+- int32  unk9 # 0xfefefefe starting from here
+- int32  unk10
+- int32  unk11
+- int32  unk12
+- int32  unk13
+- int32  unk14
+- int32  unk15
+- int32  unk16
+- int32  unk17
+- int32  unk18
+- int32  unk19
+- int32  unk20
+- int32  unk21
+- int32  unk22
+- int32  unk23
+- int32  unk24
+
+string soulboundName
+
 int32  type # 17 = persistent, 20 = hover, 28 = new etching
 uint64 id
 uint32 dbid
@@ -66,61 +124,3 @@ int32  liberationStatus           # See S_INVEN
 uint32 unk29
 byte   unk30
 bool   damaged
-
-array  crystals
-- int32 dbid
-
-array  passivitySets
-- uint32 index
-- int32  masterworkBonus
-- int32  itemLevel
-- int32  minItemLevel
-- int32  maxItemLevel
-- array  passivities
-- - int32 dbid
-
-# As of RK-9 patch this no longer displays in the UI (probably a bug) and some variables were removed
-# Note: The magic number -1000 hides individual stats
-array  statComparison
-- uint32 index # corresponds with passivity set
-- int32  stat1
-- int32  stat2
-- int32  stat3
-- int32  stat4
-- int32  stat5
-- float  stat6
-- float  stat7
-- float  stat8
-- int32  stat9
-- int32  stat10
-- int32  stat11
-- int32  stat12
-- float  stat13
-- float  stat14
-- float  stat15
-- int32  unk1
-- int32  unk2
-- int32  unk3
-- int32  unk4
-- int32  unk5
-- int32  unk6
-- int32  unk7
-- int32  unk8
-- int32  unk9 # 0xfefefefe starting from here
-- int32  unk10
-- int32  unk11
-- int32  unk12
-- int32  unk13
-- int32  unk14
-- int32  unk15
-- int32  unk16
-- int32  unk17
-- int32  unk18
-- int32  unk19
-- int32  unk20
-- int32  unk21
-- int32  unk22
-- int32  unk23
-- int32  unk24
-
-string soulboundName

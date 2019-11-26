@@ -1,8 +1,5 @@
-count  channels
-offset channels
-
-int32 unk
-int32 zone
 array channels
 - int32 channel
 - int32 density
+int32 unk
+int32 zone

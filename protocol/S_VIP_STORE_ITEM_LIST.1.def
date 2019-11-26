@@ -1,10 +1,10 @@
+array items
+- int32 slot # 1-10
+- int32 dbid
+- int32 available # 0 = sold out, 1 = available
+- bool unk
+
 uint32 contract
 uint64 credits
 uint32 refreshPoints
 uint32 refreshTime # in seconds
-
-array items
--int32 slot # 1-10
--int32 dbid
--int32 available # 0 = sold out, 1 = available
--bool unk

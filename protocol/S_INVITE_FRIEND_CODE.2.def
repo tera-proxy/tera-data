@@ -1,5 +1,4 @@
+string code
+array<string> recruits
 uint32 numRecruits
 uint32 maxRecruits
-string code
-
-array<string> recruits

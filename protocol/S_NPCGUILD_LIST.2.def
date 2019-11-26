@@ -1,10 +1,7 @@
-count  factions
-offset factions
-
-uint64 gameId
 array  factions
 - int32 region
 - int32 faction
 - int32 rank     # enum { suspicious = 0, apprehensive = 3, wavering, neutral, favorable, friendly, trusted, revered }
 - int32 reputation
 - int32 credits
+uint64 gameId

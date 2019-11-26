@@ -1,8 +1,5 @@
-offset name
-offset message
-
+string name
+string message
 int32  id
 byte   unk
 byte   raid
-string name
-string message

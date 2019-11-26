@@ -1,4 +1,4 @@
 array messages
--int32 unk
--int32 error # ID of error, 0 = no error
--string message
+- string message
+- int32 unk
+- int32 error # ID of error, 0 = no error

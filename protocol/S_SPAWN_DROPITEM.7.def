@@ -1,5 +1,8 @@
 # majorPatchVersion >= 80
 
+array  owners
+- uint32 playerId
+string ownerName
 uint64 gameId
 vec3   loc
 int32  item
@@ -10,8 +13,3 @@ bool   masterwork
 int32  enchant
 uint64 source
 bool   debug
-
-array  owners
-- uint32 playerId
-
-string ownerName

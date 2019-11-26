@@ -1,5 +1,50 @@
 # majorPatchVersion < 77
 
+array  items
+- array  passivitySets
+- - array  passivities
+- - - int32 dbid
+- - uint32 index
+- - int32  masterworkBonus
+- - int32  itemLevel
+- - int32  minItemLevel
+- - int32  maxItemLevel
+- uint32 dbid
+- uint64 id
+- uint64 ownerId # playerId
+- int32  unk1
+- uint32 amount
+- uint32 enchant
+- bool   soulbound
+- int32  crystal1
+- int32  crystal2
+- int32  crystal3
+- int32  crystal4
+- int32  crystal5
+- uint32 unk2
+- uint32 unk3
+- uint32 unk4
+- uint32 unk5
+- uint32 unk6
+- uint32 unk7
+- uint32 unk8
+- uint32 unk9
+- uint32 unk10
+- byte   unk11
+- byte   unk12
+
+array  instances
+- int32 id
+- int32 unk # HH phase maybe?
+- int32 cooldown
+- int16 entries
+
+array  unkArray
+
+string name
+string status
+string guild
+string guildRank
 uint32 templateId
 uint64 gameId
 uint32 serverId # playerId if same server?
@@ -73,49 +118,3 @@ uint32 styleBody
 uint32 styleFootprint
 uint32 unk5
 float  unk6
-
-array  items
-- uint32 dbid
-- uint64 id
-- uint64 ownerId # playerId
-- int32  unk1
-- uint32 amount
-- uint32 enchant
-- bool   soulbound
-- int32  crystal1
-- int32  crystal2
-- int32  crystal3
-- int32  crystal4
-- int32  crystal5
-- uint32 unk2
-- uint32 unk3
-- uint32 unk4
-- uint32 unk5
-- uint32 unk6
-- uint32 unk7
-- uint32 unk8
-- uint32 unk9
-- uint32 unk10
-- byte   unk11
-- byte   unk12
-- array  passivitySets
-- - uint32 index
-- - int32  masterworkBonus
-- - int32  itemLevel
-- - int32  minItemLevel
-- - int32  maxItemLevel
-- - array  passivities
-- - - int32 dbid
-
-array  instances
-- int32 id
-- int32 unk # HH phase maybe?
-- int32 cooldown
-- int16 entries
-
-array  unkArray
-
-string name
-string status
-string guild
-string guildRank

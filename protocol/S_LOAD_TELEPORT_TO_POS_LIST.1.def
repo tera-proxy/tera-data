@@ -1,11 +1,7 @@
-count locations
-offset locations
-
 array locations
-- offset name
+- string name
 - int16 unk # Always 0?
 - int32 zone
 - float x
 - float y
 - float z
-- string name

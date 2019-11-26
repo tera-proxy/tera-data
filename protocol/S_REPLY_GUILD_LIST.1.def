@@ -1,16 +1,9 @@
-count  guilds
-offset guilds
-
-int32  currentPage
-int32  totalPages
-int32  totalGuilds
-int32  unk
 array  guilds
-- offset name
-- offset master
-- offset unk1
-- offset ad
-- offset emblem
+- string name
+- string master
+- string unk
+- string ad
+- string emblem
 - int32  level
 - int64  founded
 - int64  members # maybe two int32 fields?
@@ -20,8 +13,8 @@ array  guilds
 - byte   unk3
 - int32  fame
 - int32  crusade
-- string name
-- string master
-- string unk
-- string ad
-- string emblem
+
+int32  currentPage
+int32  totalPages
+int32  totalGuilds
+int32  unk

@@ -1,4 +1,4 @@
+string quest        # "@GuildQuest:questId" for announce, "\0" for spawn and death
 int32 type          # 0 = announce, 1 = spawn, 3 = death
 int16 zoneId
 int32 templateId
-string quest        # "@GuildQuest:questId" for announce, "\0" for spawn and death

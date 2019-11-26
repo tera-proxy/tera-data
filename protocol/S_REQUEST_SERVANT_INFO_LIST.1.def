@@ -1,7 +1,13 @@
 # majorPatchVersion >= 81
 
-uint32     slots
 array      servants
+- string   name
+- array    giftedSkills
+- - uint32 id
+- - bool   changeable
+- array    abilities
+- - uint32 id
+- - bool   active
 - uint64   dbid
 - uint32   type # 0: pet, 1: partner
 - uint32   id
@@ -12,10 +18,5 @@ array      servants
 - uint64   availableUntil # unix timestamp (0: forever)
 - int32    slot # -1: automatic
 - uint32   costume # item id
-- string   name
-- array    giftedSkills
-- - uint32 id
-- - bool   changeable
-- array    abilities
-- - uint32 id
-- - bool   active
+
+uint32     slots

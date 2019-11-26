@@ -1,7 +1,8 @@
-int32 set
 array inventory
 - int32 slot
 - int32 type # 1 = item, 2 = skill
 - int32 skill
 - int32 item
 - int64 cooldown
+
+int32 set

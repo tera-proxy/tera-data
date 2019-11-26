@@ -1,9 +1,5 @@
-count  members
-offset members
-uint16 unk1
-
 array  members
-- offset name
+- string name
 - uint32 playerId
 - uint16  class # class -1
 - uint16  race
@@ -17,4 +13,4 @@ array  members
 - byte unk5
 - byte canInvite # 0 - 1
 - uint16 unk6
-- string name
+uint16 unk1

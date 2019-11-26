@@ -1,3 +1,6 @@
+string senderName
+string recipientName
+bytes  data
 uint64 senderId
 uint64 recipientId
 int32  type # 3 = Trade Request, 4 = Party Invite, 9 = Merchant/Shop Open,
@@ -28,6 +31,3 @@ int32  type # 3 = Trade Request, 4 = Party Invite, 9 = Merchant/Shop Open,
 int32  id
 int32  unk3
 int32  time
-string senderName
-string recipientName
-bytes  data

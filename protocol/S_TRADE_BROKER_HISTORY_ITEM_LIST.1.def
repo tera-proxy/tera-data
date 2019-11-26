@@ -1,10 +1,5 @@
-count listings
-offset listings
-
-int32 page
-int32 pageCount
 array listings
-- offset name
+- string name
 - int32 listing
 - int32 unk1
 - int32 unk2
@@ -23,4 +18,6 @@ array listings
 - int32 unk8
 - int32 unk10
 - int32 unk11
-- string name
+
+int32 page
+int32 pageCount

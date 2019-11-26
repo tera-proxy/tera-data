@@ -1,6 +1,7 @@
-uint32 numRecruits
-uint32 maxRecruits
 string code
 
 array recruits
--string name
+- string name
+
+uint32 numRecruits
+uint32 maxRecruits

@@ -1,3 +1,13 @@
+array  icons
+- int32 icon
+array  accountBenefits
+- int32 packageId
+string name
+string guild
+string guildRank
+bytes  details
+string guildEmblem
+bytes  shape
 uint32 serverId
 uint32 playerId
 uint64 gameId
@@ -75,16 +85,3 @@ int32  unk7
 int32  unk8 # always 0?
 int32  appearance2
 float  scale
-
-array  icons
-- int32 icon
-
-array  accountBenefits
-- int32 packageId
-
-string name
-string guild
-string guildRank
-bytes  details
-string guildEmblem
-bytes  shape

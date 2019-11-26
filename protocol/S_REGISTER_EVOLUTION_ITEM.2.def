@@ -1,5 +1,13 @@
 # majorPatchVersion >= 79
 
+array materials
+- uint32 id
+- uint32 amount
+
+array successChances
+- uint32 type
+- float chance
+
 uint32 contractId
 uint64 sourceUniqueId
 uint32 sourceItemId
@@ -19,11 +27,3 @@ uint64 price
 bool hideSuccessChance
 float destroyOnFailureChance # unsure
 float damageOnFailureChance # unsure
-
-array materials
-- uint32 id
-- uint32 amount
-
-array successChances
-- uint32 type
-- float chance

@@ -1,2 +1,2 @@
-uint64 gameId
 string name
+uint64 gameId

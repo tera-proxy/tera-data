@@ -1,5 +1,4 @@
-offset sysmsg
-
+string sysmsg
 int32  item
 int32  unk1
 int32  amount
@@ -9,4 +8,3 @@ int32  unk4
 byte   unk5
 byte   unk6
 byte   unk7
-string sysmsg
