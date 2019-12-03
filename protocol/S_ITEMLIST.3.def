@@ -3,12 +3,12 @@
 array items
 - array<int32>   crystals
 - array          passivitySets
+- - array<int32> passivities
 - - uint32       index
 - - int32        masterworkBonus
 - - float        itemLevel
 - - float        minItemLevel
 - - float        maxItemLevel
-- - array<int32> passivities
 - array<int32>   mergedPassivities
 - string         customString
 - int32          id
