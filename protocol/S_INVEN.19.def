@@ -2,14 +2,12 @@
 
 array items
 - array  passivitySets
-- - count  passivities
-- - offset passivities
+- - array<int32> passivities
 - - uint32 index
 - - int32  masterworkBonus
 - - int32  itemLevel
 - - int32  minItemLevel
 - - int32  maxItemLevel
-- - array<int32> passivities
 - array<int32> mergedPassivities
 - string customString
 - int32  id
