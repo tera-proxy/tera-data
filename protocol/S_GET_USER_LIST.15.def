@@ -2,8 +2,8 @@
 
 array  characters
 - array     customStrings
-- - int32   id
 - - string  string
+- - int32   id
 - string    name
 - bytes     details
 - bytes     shape

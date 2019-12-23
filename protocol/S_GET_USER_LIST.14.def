@@ -2,8 +2,8 @@
 
 array  characters
 - array  customStrings
-- - uint32 dbid
 - - string string
+- - uint32 dbid
 - string name
 - bytes  details
 - bytes  shape
