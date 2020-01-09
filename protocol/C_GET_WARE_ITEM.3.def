@@ -5,6 +5,6 @@ int64	gold
 int32	bankSlot
 uint64	dbid
 int32	id
-int32	amont
+int32	amount
 int32	invenPocket
 int32	invenSlot
