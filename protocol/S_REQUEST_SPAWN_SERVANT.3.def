@@ -1,24 +1,23 @@
-# majorPatchVersion >= 81
-
-array<uint32> giftedSkills
-array    abilities
-- uint32 id
-- bool   active
-string   name
-uint64   gameId
-uint64   dbid
-vec3     loc
-angle    w
-uint32   type # see S_REQUEST_SERVANT_INFO_LIST
-uint32   id
-uint32   linkedNpcTemplateId
-uint16   linkedNpcHuntingZoneId
-int16    walkSpeed
-int16    runSpeed
-uint64   ownerId
-int32    energy
-int32    spawnType # 0: enter world, 1: enter visible range
-int32    level
-int32    fellowship
-uint32   styleItem
-uint32   restyleId
+array<uint32>	giftedSkills
+array	abilities
+- uint32	id
+- bool		active
+string	name
+uint64	gameId
+uint64	dbid
+vec3	loc
+angle	w
+uint32	type			# see S_REQUEST_SERVANT_INFO_LIST
+uint32	id
+uint32	linkedNpcTemplateId
+uint16	linkedNpcHuntingZoneId
+int16	walkSpeed
+int16	runSpeed
+uint64	ownerId
+int32	energy
+int32	energyMax	^88
+int32	spawnType		# 0: enter world, 1: enter visible range
+int32	level
+int32	fellowship
+uint32	styleItem
+uint32	restyleId

@@ -1,25 +1,26 @@
-# majorPatchVersion >= 85
+array	servants
+- array		giftedSkills
+- - uint32	id
+- - bool	changeable
 
-array      servants
-- array    giftedSkills
-- - uint32 id
-- - bool   changeable
-- array    abilities
-- - uint32 id
-- - bool   active
-- string   name
-- uint64   dbid
-- uint32   type # 0: pet, 1: partner
-- uint32   id
-- int32    level
-- int32    exp
-- int32    energy
-- int32    fellowship
-- uint64   availableUntil # unix timestamp (0: forever)
-- int32    slot # -1: automatic
-- uint32   styleItem # item id
-- uint32   unk1
-- uint32   unk2
-- uint32   restyleId
+- array		abilities
+- - uint32	id
+- - bool	active
 
-uint32     slots
+- string	name
+- uint64	dbid
+- uint32	type			# 0: pet, 1: partner
+- uint32	id
+- int32		level
+- int32		exp
+- int32		energy
+- int32		energyMax	^88
+- int32		fellowship
+- uint64	availableUntil	# unix timestamp (0: forever)
+- int32		slot			# -1: automatic
+- uint32	styleItem		# item id
+- uint32	unk1
+- uint32	unk2
+- uint32	restyleId
+
+uint32	slots
