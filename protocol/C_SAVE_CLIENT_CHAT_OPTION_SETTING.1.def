@@ -1,0 +1,24 @@
+# See DataCenter.ChatClientConfigData
+
+array	tabs
+- array<int32>	channels
+- string		name
+- string		defaultInputChannel
+- int16			index					# This is the internal index, whereas user-defined tab order follows the array
+- float			x						# -1 = Default
+- float			y						# -1 = Default
+- int16			width
+- int16			height
+- int16			opacity
+- int16			fontSize
+- bool			undocked
+- bool			partyAutoInputChange
+- bool			autoInputChange
+
+array	channels
+- int32	id
+- byte	r
+- byte	g
+- byte	b
+
+uint64	accountId
