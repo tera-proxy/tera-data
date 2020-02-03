@@ -1,0 +1,7 @@
+array	uis
+- string	name
+- bool		locked
+- float		x		# Percentage of screen relative to the element's origin
+- float		y		# Same as above
+
+uint64 accountId
