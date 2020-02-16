@@ -1,0 +1,5 @@
+string 	name
+bytes 	data
+int32 	type
+uint64 	gameId
+uint32 	button
