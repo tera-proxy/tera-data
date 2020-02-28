@@ -1,0 +1,4 @@
+int32 guildId
+int32 guildLevel
+int64 guildXp
+bool  levelUp

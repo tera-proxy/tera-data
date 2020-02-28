@@ -6,7 +6,6 @@ array  quests
 - - int32 total
 
 - array  unk2 # currently completely unknown
-- - byte unk  # placeholder to ensure array is populated if there are items
 
 - array  rewards
 - - int32 item

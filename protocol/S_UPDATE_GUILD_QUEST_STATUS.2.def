@@ -1,0 +1,9 @@
+array  targets
+- int32 huntingZoneId
+- int32 templateId
+- int32 maxProgress     # These are like this, maxProgress then progress. Unlike the ones in S_GUILD_QUEST_LIST.
+- int32 progress
+
+int32  questId
+int32  status           # 0 = Not taken, 1 = In-progress, 2 = Completed.
+int32  unk              # 699~720?

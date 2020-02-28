@@ -1,0 +1,49 @@
+array   quests
+- array  targets
+- - int32 huntingZoneId
+- - int32 templateId
+- - int32 progress
+- - int32 maxProgress
+
+- array  unkArr                 # Always empty?
+
+- array  rewards
+- - int32 id
+- - int64 amount
+
+- string name
+- string description
+- string guildName
+- int32  questId
+- int32  targetList             # See DataCenter.GuildQuest | 0 = Npc, 1 = Unused?, 2 = Collection, 3 = Unused?, 4 = Field, 5 = Fishing.
+- int32  valderonTokens         # Rewards.
+- int32  size                   # Size required to pick the quest.
+- int32  totalTime              # In minutes.
+- int32  status                 # 0 = Not taken, 1 = In-progress, 2 = Completed.
+- int32  timeRemaining          # In seconds.
+- int32  type                   # 0 = Other, 1 = Boss, 2 = BG, 3 = Activities(Gather/Fishing), 4 = Old Rally.
+- int32  type2                  # 1 = normal, 2 = fishing?.
+- bool   active
+
+array   valderonRewards
+- int32  index
+- int32  requiredValderonTokens
+- bool   completed
+- bool   received
+
+string  guildName
+string  guildMaster
+int32   guildId
+int32   guildMasterId
+int32   guildLevel
+int64   guildXp
+int64   maxGuildXp
+int64   guildFunds
+int32   characters
+int32   accounts
+int32   size                    # 0 = Small, 1 = Medium, 2 = Large.
+int64   creationDate
+int32   valderonTokens
+int32   maxValderonTokens       # 900 = Small, 1,300 = Medium, 1,700 = Large.
+bool    isValderonTrial         # Is true when you join guild and you're still in valderon-trial period (unable to accept/complete/cancel guild quests and to receive valderonTokens rewards until next valderonTokens weekly reset occurrence).
+                                # It has nothing to do with the CU 7-days since guild join to be able to receive CU rewards, (for CU; it's from S_GUILD_MEMBER_LIST.members.unk1).
