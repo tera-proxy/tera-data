@@ -1,0 +1,5 @@
+uint64 owner
+uint64 gameId
+uint32 itemId
+vec3 loc
+uint32 state
