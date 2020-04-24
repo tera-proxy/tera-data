@@ -1,2 +1,3 @@
-string serverName
-uint64 accountId
+string	serverName
+uint64	accountId
+uint32	integrityIv	^93	# Used to generate hashes for packets that have integrity check
