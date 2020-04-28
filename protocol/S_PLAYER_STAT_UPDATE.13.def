@@ -1,5 +1,3 @@
-# majorPatchVersion >= 86
-
 int64  hp
 int32  mp
 int64  drain
@@ -26,8 +24,13 @@ int32  attackMagicalMax
 int32  defense
 int32  defensePhysical
 int32  defenseMagical
-int32  impact
-int32  balance
+int32  defenseReductionPhysical			^93
+int32  defenseReductionMagical			^93
+float  piercingPhysical					^93
+float  piercingMagical					^93
+float  unk								^93
+int32  impact							^0-93
+int32  balance							^0-93
 float  resistWeakening
 float  resistPeriodic
 float  resistStun
@@ -52,20 +55,24 @@ int32  defensePhysicalBonus
 int32  attackMagicalMinBonus
 int32  attackMagicalMaxBonus
 int32  defenseMagicalBonus
-int32  impactBonus
-int32  balanceBonus
+int32  defenseReductionPhysicalBonus	^93
+int32  defenseReductionMagicalBonus		^93
+float  piercingPhysicalBonus			^93
+float  piercingMagicalBonus				^93
+int32  impactBonus						^0-93
+int32  balanceBonus						^0-93
 float  resistWeakeningBonus
 float  resistPeriodicBonus
 float  resistStunBonus
-uint16 level # level shown and used for e.g. damage calculations (was used for Blast from the Past)
-uint16 status # see S_USER_STATUS
+uint16 level									# level shown and used for e.g. damage calculations (was used for Blast from the Past)
+uint16 status									# see S_USER_STATUS
 uint16 conditionLevel
 bool   alive
 int32  hpBonus
 int32  mpBonus
-int32  condition # Stamina in English version
+int32  condition								# Stamina in English version
 int32  contitionMax
-int32  stamina # Resolve, Chi, Willpower, etc.
+int32  stamina									# Resolve, Chi, Willpower, etc.
 int32  staminaMax
 int32  staminaBonus
 int32  infamy
@@ -73,14 +80,14 @@ float  itemLevelInventory
 float  itemLevel
 int32  edge
 float  edgePercentage
-int32  edgeTimeRemaining # milliseconds
+int32  edgeTimeRemaining						# milliseconds
 int32  edgeMin
-int32  trueLevel # actual character level used for e.g. learning skills (was used for Blast from the Past)
+int32  trueLevel								# actual character level used for e.g. learning skills (was used for Blast from the Past)
 float  flightEnergy
 uint32 flightId
 float  flightSpeedMul
-uint32 fireEdge # sorc fire "edge" (becomes 4 for some reason)
-uint32 iceEdge # sorc ice "edge" (becomes 4 for some reason)
-uint32 lightningEdge # sorc lightning "edge" (becomes 4 for some reason)
+uint32 fireEdge									# sorc fire "edge" (becomes 4 for some reason)
+uint32 iceEdge									# sorc ice "edge" (becomes 4 for some reason)
+uint32 lightningEdge							# sorc lightning "edge" (becomes 4 for some reason)
 uint32 adventureCoins
 uint32 adventureCoinsMax
