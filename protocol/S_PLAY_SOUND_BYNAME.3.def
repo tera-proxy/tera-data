@@ -1,0 +1,5 @@
+string	name
+uint64	gameId
+float	volume
+float	range
+float	pitch

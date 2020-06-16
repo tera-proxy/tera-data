@@ -1,4 +1,4 @@
-# MajorPatchVersion >= 67
+# majorPatchVersion >= 67
 
 array  characters
 - array     customStrings
@@ -72,8 +72,10 @@ array  characters
 - int32     styleFootprint
 - uint32    styleBodyDye
 - uint32    weaponEnchant
-- int32     restBonusXp
-- int32     maxRestBonusXp
+- int32     restBonusXp ^0-86
+- int32     maxRestBonusXp ^0-86
+- int64     restBonusXp ^86
+- int64     maxRestBonusXp ^86
 - bool      showFace
 - float     styleHeadScale
 - vec3fa    styleHeadRotation
@@ -97,6 +99,8 @@ array  characters
 - int32     position # 1..characterCount (position in character selection screen)
 - int32     guildLogoId
 - int32     awakeningLevel
+- bool      hasBrokerSales ^85
+- int32     numFinishedPetAdventures ^95
 
 bool   veteran
 int32  bonusBufSec
