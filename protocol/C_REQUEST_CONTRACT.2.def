@@ -1,0 +1,7 @@
+# See S_REQUEST_CONTRACT for more details
+
+string	targetName
+bytes	param
+int32	type
+int64	target
+int32	intParam	# Ignored by server

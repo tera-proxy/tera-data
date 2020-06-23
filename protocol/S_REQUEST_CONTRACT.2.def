@@ -1,0 +1,66 @@
+# Known contract types (enum valid for patch 95.03):
+# 3 = Trade Request
+# 4 = Party Invite
+# 9 = Merchant/Shop Open
+# 8 = Mailbox
+# 11 = Duel
+# 14 = Map
+# 15 = Teleport (Dungeon Teleport + City Teleport as examples)
+# 16 = Unstuck
+# 17 = Continent Map Teleporter
+# 18 = Deathmatch Invite
+# 20 = Medal Shop
+# 25 = Deathmatch Bet
+# 26 = Open Bank
+# 27 = Learn Skill Merchant
+# 31 = Craft Item
+# 32 = Soulbind
+# 33 = Merge Items
+# 35 = Waiting for buyer response
+# 36 = Negotiating with buyer
+# 37 = Inventory Expansion
+# 40 = Egg Incubator
+# 41 = Gear Remodel
+# 42 = Restore Gear Appearance
+# 43 = Dye Item
+# 44 = Opening Box no UI or EVENT_SEED
+# 49 = Vanguard Credit Shop
+# 50 = Battleground Merchant
+# 51 = response to C_ENTER_TELEPORTTERRITORY, sends C_REPLY_TELEPORT_WALK_THROUGH
+# 52 = Gear rolls
+# 53 = Opening Box with UI (Gacha + Other)
+# 54 = Village Atlas
+# 55 = Travel Journal
+# 57 = Friend Summon
+# 62 = Shape Change
+# 63 = Old Tera Store
+# 67 = Bamarama Wager
+# 70 = Crystal Fusion
+# 71 = Awakening
+# 75 = Liberate Item
+# 76 = Enchantment Scrolls
+# 77 = Dressing Room
+# 78 = EP/Talents
+# 80 = Dungeon Ace Shop
+# 81 = Emporium Shop
+# 84 = Guild Gold Distribution
+# 85 = Convert Item
+# 86 = Activate Gear Dual Set
+# 87 = Dual Gear Set Switch
+# 88 = Enchant
+# 89 = Upgrade
+# 90 = Dismantle
+# 91 = Restyle Accessories
+# 92 = New Hair UI
+# 96 = Repair UI
+# 96 = Infuse UI
+
+string	sourceName
+string	targetName
+bytes	param
+uint64	source
+uint64	target
+int32	type
+uint32	id
+int32	beginTick
+int32	endTick

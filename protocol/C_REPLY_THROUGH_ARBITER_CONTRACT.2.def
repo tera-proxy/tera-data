@@ -1,0 +1,7 @@
+# See S_REQUEST_CONTRACT
+
+string	sourceName
+int32	type
+uint32	id
+int32	index
+int32	response

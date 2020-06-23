@@ -1,4 +1,5 @@
 # See S_REQUEST_CONTRACT
 
+string	sourceName
 int32	type
 uint32	id

@@ -1,4 +1,6 @@
 # See S_REQUEST_CONTRACT
 
+uint64	source
+uint64	target
 int32	type
 uint32	id

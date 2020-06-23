@@ -1,2 +1,4 @@
-int32 type # see S_REQUEST_CONTRACT.1
-int32 id
+# See S_REQUEST_CONTRACT
+
+int32	type
+uint32	id
