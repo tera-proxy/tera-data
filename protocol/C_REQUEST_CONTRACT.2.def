@@ -3,5 +3,5 @@
 string	targetName
 bytes	param
 int32	type
-int64	target
+uint64	target
 int32	intParam	# Ignored by server
