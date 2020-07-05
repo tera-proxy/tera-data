@@ -1,0 +1,43 @@
+array	buttons
+- string	text
+- int32		id
+- int32		index
+- int32		type
+
+array	questRewards
+- array		items
+- - int32	id
+- - int32	amount
+- array		skills
+- - int32	id
+- - bool	active
+- int32		mode
+- int32		type
+- int64		exp
+- int64		money
+- int32		policyPoints
+- object	faction
+- - int32	id
+- - int32	reputation
+- - int32	tokens
+- int32		skillAdvancementExp
+
+uint64	gameId
+int32	type
+int32	key1
+int32	key2
+int32	questTaskId
+int32	textId
+uint32	id
+
+object	specialActionButton
+- bool	enabled
+- int32	type
+
+bool	autoClose
+bool	unspecifiedReward
+bool	additionalReward
+int32	repeatedQuestExtraMoney
+bool	repeatableQuestTask
+int32	maxRepeatCount
+bool	additionalRewardEvent
