@@ -1,5 +1,6 @@
-uint64 gameId
-vec3  loc
-bool  alive
-byte  unk1
-byte  unk2
+uint64	gameId
+vec3	loc
+bool	alive
+bool	resItem
+bool	resPassive
+bool	unk

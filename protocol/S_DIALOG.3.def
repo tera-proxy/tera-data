@@ -39,5 +39,6 @@ bool	unspecifiedReward
 bool	additionalReward
 int32	repeatedQuestExtraMoney
 bool	repeatableQuestTask
+int32	repeatCount
 int32	maxRepeatCount
 bool	additionalRewardEvent

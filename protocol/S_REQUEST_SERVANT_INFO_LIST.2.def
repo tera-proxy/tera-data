@@ -1,6 +1,6 @@
 array	servants
 - array		giftedSkills
-- - uint32	id
+- - int32	id
 - - bool	changeable
 
 - array		abilities
@@ -9,18 +9,19 @@ array	servants
 
 - string	name
 - uint64	dbid
-- uint32	type			# 0: pet, 1: partner
-- uint32	id
+- int32		type				# 0: pet, 1: partner
+- int32		id
 - int32		level
 - int32		exp
 - int32		energy
-- int32		energyMax	^88
+- int32		energyMax		^88
 - int32		fellowship
-- uint64	availableUntil	# unix timestamp (0: forever)
-- int32		slot			# -1: automatic
-- uint32	styleItem		# item id
-- uint32	unk1
-- uint32	unk2
-- uint32	restyleId
+- uint64	availableUntil		# unix timestamp (0: forever)
+- int32		slot				# -1: automatic
+- int32		styleItem			# item id
+- int32		unk1
+- int32		unk2
+- int32		restyleId
 
-uint32	slots
+bool	login	^95
+int32	slots

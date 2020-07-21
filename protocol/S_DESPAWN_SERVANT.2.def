@@ -1,2 +1,0 @@
-uint64 gameId
-int32 type # 1 = out of view

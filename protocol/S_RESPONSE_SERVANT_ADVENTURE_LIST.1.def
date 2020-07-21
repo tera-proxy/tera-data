@@ -1,0 +1,9 @@
+array	adventures
+- uint64	servantDbid
+- int32		fieldId
+- int64		secRemaining
+
+bool	login
+int32	unk
+int32	adventuresMax
+int32	adventuresOngoing

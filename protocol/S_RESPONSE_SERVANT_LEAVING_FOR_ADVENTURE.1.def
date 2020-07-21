@@ -1,0 +1,5 @@
+int32	response
+uint64	servantDbid
+int32	fieldId
+int64	timeSec
+int32	adventuresOngoing

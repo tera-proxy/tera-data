@@ -1,3 +1,2 @@
 string name
-uint64 gameId
-int32 dbid
+uint64 dbid

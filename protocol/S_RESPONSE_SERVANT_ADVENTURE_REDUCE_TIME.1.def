@@ -1,0 +1,6 @@
+int32	response
+uint64	servantDbid
+int32	itemId
+int32	itemAmount
+int32	unk1
+int32	unk2

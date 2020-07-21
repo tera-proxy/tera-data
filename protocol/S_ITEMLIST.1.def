@@ -23,14 +23,14 @@ array items
 - uint32		slot
 - int32			amount
 - int32			enchant
-- int32			durability					# only used for homunculi
+- int32			durability					# Only used for homunculi
 - int32			soulboundStatus				# 0: not soulbound, 1: soulbound
 - int32			passivitySet
 - int32			extraPassivitySets
 - int32			remodel
 - uint32		dye
 - int32			dyeSecRemaining				# -1 = unlimited
-- int64			dyeDate						# not read by the client
+- int64			dyeDate						# Ignored by client
 - int64			dyeExpiryDate
 - bool			masterwork
 - int32			enigma
@@ -38,15 +38,16 @@ array items
 - int32			enchantAdvantage			# % x 100
 - int32			enchantBonus				# % x 100 (added to enchantAdvantage + displayed separately)
 - int32			enchantBonusMaxPlus
-- uint64		boundToPlayer				# playerId
+- uint64		boundToPlayer				# playerId (64-bit for no reason)
 - bool			awakened
-- int32			liberationStatus			# how often this item was liberated
-- int32			feedstock
+- int32			liberationStatus			# Negative = liberations left, 0 = default, positive = liberation count (liberated)
+- int32			feedstock					# Ignored by client
 - int32			boundToItem
 - bool			hasEtching
 - bool			pcbang
 - int64			xp
-- bool			damaged						# damaged due to enchant/upgrade failure, needs to be repaired.
+- bool			damaged						# Cannot be enchanted again until repaired
+- int64			acquisitionDate		^97		# Premium items only (cash shop / cosmetic)
 
 uint64	gameId
 int32	container # 0: inventory, 14: equipment - see S_SHOW_ITEM_TOOLTIP
