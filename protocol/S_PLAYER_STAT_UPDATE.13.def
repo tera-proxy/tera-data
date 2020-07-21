@@ -71,7 +71,7 @@ bool   alive
 int32  hpBonus
 int32  mpBonus
 int32  condition								# Stamina in English version
-int32  contitionMax
+int32  conditionMax
 int32  stamina									# Resolve, Chi, Willpower, etc.
 int32  staminaMax
 int32  staminaBonus
