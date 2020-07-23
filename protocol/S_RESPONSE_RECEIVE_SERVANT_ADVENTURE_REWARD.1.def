@@ -2,8 +2,8 @@ array	items
 - int32	id
 - int32	amount
 
-int32	response	# 0 = OK, 26 = Not found
+int32	response
 uint64	servantDbid
 int32	fieldId
-int32	unk1		# ongoing or completed adventures?
-int32	unk2		# ongoing or completed adventures?
+int32	itembagGrade
+int32	adventuresOngoing

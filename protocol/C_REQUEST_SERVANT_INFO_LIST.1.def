@@ -1,1 +1,2 @@
-bool login
+uint64	gameId
+bool	login

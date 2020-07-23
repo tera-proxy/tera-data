@@ -1,0 +1,3 @@
+int32	response
+uint64	servantDbid
+int32	adventuresOngoing
