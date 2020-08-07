@@ -1,10 +1,14 @@
 array instances
-- int32 id
+- int32	id
+- int32	type			^97		# 0 = Dungeon, 1 = Battleground
+- int32	matchingType	^97		# 0 = Normal, 1 = Free Matching
+- bool	preferredLeader	^97
 
 array players
-- uint32 id
-- int32 role # 0 = Tank, 1 = DPS, 2 = Healer
+- uint32	id
+- int32		role	# 0 = Tank, 1 = DPS, 2 = Healer
 
-byte unk # 0
-byte preferredLeader
-int32 type # 0 = Dungeon, 1 = Battleground
+bool	unk1
+bool	preferredLeader	^0-97
+int32	type			^0-97	# 0 = Dungeon, 1 = Battleground
+bool	unk2			^97
