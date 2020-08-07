@@ -1,5 +1,6 @@
-array perks
-- uint32 id
-- uint32 level
-bool success
-uint32 usedPoints
+array	perks
+- int32	id
+- int32	level
+
+bool	success
+int32	usedPoints

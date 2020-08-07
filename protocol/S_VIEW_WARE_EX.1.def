@@ -1,30 +1,30 @@
 array items
-- array  crystals
-- - int32 id
-- int32  id
-- uint64 dbid
-- uint64 ownerId
-- uint32 slot
-- uint32 unk1 # always 1?
-- int32  amountTotal
-- int32  amount
-- int32  enchant
-- uint32 unk2 # 0/1?
-- uint32 unk3
-- bool   unk4
-- bool   masterwork
-- int32  enigma
-- uint32 unk5
-- uint32 unk6
-- uint32 unk7
-- bool   awakened
-- uint32 unk8
+- array	crystals
+- - int32	id
+- int32		id
+- uint64	dbid
+- uint64	ownerId
+- int64		unk1		# always 1?
+- uint32	slot
+- int32		amountTotal
+- int32		amount
+- int32		enchant
+- uint32	unk2		# 0/1?
+- uint32	unk3
+- bool		unk4
+- bool		masterwork
+- int32		enigma
+- uint32	unk5
+- uint32	unk6
+- uint32	unk7
+- bool		awakened
+- uint32	unk8
 
-uint64 gameId
-int32  type # 0 = Legacy Bank (4 tabs), 1 = Bank, 3 = Guild Bank, 9 = Pet, 12 = Wardrobe
-int32  action # Setting this to 1 closes the window, other values do nothing
-int32  offset # Determines which tab is currently selected
-int32  lastUsedSlot # Determines number of temporary storage tabs available
-int32  slotsUsed
-int64  gold
-int16  slots # Determines number of unlocked tabs
+uint64	gameId
+int32	type			# 0 = Legacy Bank (4 tabs), 1 = Bank, 3 = Guild Bank, 9 = Pet, 12 = Wardrobe
+int32	action			# Setting this to 1 closes the window, other values do nothing
+int32	offset			# Determines which tab is currently selected
+int32	lastUsedSlot	# Determines number of temporary storage tabs available
+int32	slotsUsed
+int64	gold
+int16	slots			# Determines number of unlocked tabs

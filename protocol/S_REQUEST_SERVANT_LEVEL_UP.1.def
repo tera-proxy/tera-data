@@ -1,0 +1,6 @@
+int32	response
+uint64	consumedServantDbid
+uint64	servantDbid
+int32	levelNew
+int32	fellowshipOld
+int32	fellowshipnew

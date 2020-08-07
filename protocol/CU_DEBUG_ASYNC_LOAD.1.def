@@ -1,0 +1,2 @@
+array<string>	resources
+int32			unk			# Always 0 (hardcoded)

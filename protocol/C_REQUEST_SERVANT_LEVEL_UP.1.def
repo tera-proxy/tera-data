@@ -1,0 +1,2 @@
+uint64	consumedServantDbid
+uint64	servantDbid
