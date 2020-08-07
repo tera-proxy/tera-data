@@ -47,7 +47,7 @@ array items
 - bool			pcbang
 - int64			xp
 - bool			damaged						# Cannot be enchanted again until repaired
-- int64			acquisitionDate		^97		# Premium items only (cash shop / cosmetic)
+- int64			expiryDate			^97		# Only valid for temporary items
 
 uint64	gameId
 int32	container # 0: inventory, 14: equipment - see S_SHOW_ITEM_TOOLTIP
