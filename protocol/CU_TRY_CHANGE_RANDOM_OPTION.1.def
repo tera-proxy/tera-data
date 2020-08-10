@@ -1,0 +1,4 @@
+array<int32>	lockSlots
+uint32			contractId
+uint64			itemDbid
+int32			itemId
