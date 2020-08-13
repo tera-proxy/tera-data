@@ -1,3 +1,4 @@
 array<int32>	passivities
 bool			unk
 uint64			itemDbid
+int32			result
