@@ -1,2 +1,3 @@
-int32 unk
+int32 type
+int32 maxFatigability
 int32 fatigability
