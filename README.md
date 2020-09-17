@@ -72,9 +72,10 @@ bool                   newBool      ^80    # Added again in patch 80
 ## Packet data structure
 * All data types are little-endian.
 * All packets start with `uint16 size`, `uint16 packetID`.
+* Packets with integrity check have `uint32 count`, `uint32 checksum` directly after the header.
 * `string`: `uint16 offset` directly after header, which points to a 0-terminated UCS2 string.
 * `bytes`: `uint16 offset`, `uint16 count` directly after header, which points to an array of bytes.
-* `array`: `uint16 count`, `uint16 offset` directly after the header, which points to the first `<node>`.
+* `array`: `uint16 count`, `uint16 offset` directly after header, which points to the first `<node>`.
 * * `<node>`: `uint16 offset`, `uint16 nextOffset`, followed by data.
 
 ## `.def` versioning
